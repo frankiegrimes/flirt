@@ -1,0 +1,15 @@
+.video-container {
+  background-color: #AADEE9;
+  width: 1150px;
+  height: 647px; }
+
+svg {
+  display: block;
+  margin: auto; }
+
+svg:hover {
+  fill: #999999; }
+
+video {
+  position: relative;
+  top: -600px; }
