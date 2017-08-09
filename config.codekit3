@@ -15,6 +15,24 @@
 		"oAP": "\/.bowerrc",
 		"oF": 0
 		},
+	"\/assets\/fonts\/Proxima-Nova-Bold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Proxima-Nova-Bold.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Proxima-Nova-Light.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Proxima-Nova-Light.otf",
+		"oF": 0
+		},
+	"\/assets\/fonts\/Proxima-Nova-Semibold.otf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Proxima-Nova-Semibold.otf",
+		"oF": 0
+		},
 	"\/assets\/icons\/upload.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -24,6 +42,29 @@
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
+		},
+	"\/assets\/img\/poster.png": {
+		"ft": 32768,
+		"iS": 576944,
+		"oA": 0,
+		"oAP": "\/assets\/img\/poster.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/assets\/video\/eyes.mp4": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/video\/eyes.mp4",
+		"oF": 0
+		},
+	"\/assets\/video\/info-video.mov": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/video\/info-video.mov",
+		"oF": 0
 		},
 	"\/bower.json": {
 		"ft": 524288,
