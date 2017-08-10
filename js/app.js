@@ -8,12 +8,15 @@ $('#take-video').click(function(){
 
 		navigator.mediaDevices.getUserMedia(constraints)
 		.then(function(mediaStream) {
-		  var video = document.querySelector('video');
+		  var video = document.querySelector('#webcam');
+		  
 		  video.srcObject = mediaStream;
 		  video.onloadedmetadata = function(e) {
 
 		    video.play();
 		    console.log('ran function');
+		    $('#webvideo-container').hide();
+
 		  };
 		})
 		.catch(function(err) { console.log(err.name + ": " + err.message); }); // always check for errors at the end.

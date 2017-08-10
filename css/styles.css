@@ -27,8 +27,7 @@ body {
 
 h1 {
   font-family: "ProximaNova-Bold";
-  font-size: 20rem;
-  margin-left: -20rem; }
+  font-size: 5rem; }
 
 p {
   font-family: "ProximaNova-Light"; }
@@ -43,8 +42,7 @@ p {
   font-family: "ProximaNova-Bold";
   font-size: 2rem;
   line-height: 1.3rem;
-  background-color: transparent;
-  z-index: 20; }
+  background-color: transparent; }
 
 .top-bar li {
   padding: 0rem 2rem; }
@@ -55,12 +53,16 @@ p {
 .top-bar a:hover {
   color: #222222; }
 
-/* -----------------------------------------------------------------------*	LANDING BACKGROUND VIDEO
+/* -----------------------------------------------------------------------*	LANDING PAGE
 \* -----------------------------------------------------------------------*/
 .eyes-video {
   position: relative;
   overflow: hidden;
   margin-top: -7rem; }
+  .eyes-video img {
+    height: 10%;
+    margin-left: -5rem;
+    margin-top: 5rem; }
   .eyes-video #video_bg {
     position: absolute;
     left: 50%;
@@ -69,18 +71,17 @@ p {
     min-height: 100%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    z-index: 0;
+    z-index: -2;
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
     filter: grayscale(100%); }
-  .eyes-video #message {
-    color: #fff;
-    z-index: 6; }
   .eyes-video h1 {
+    margin-top: 30rem;
+    color: white;
+    margin-left: -24rem;
+    font-size: 10rem;
     letter-spacing: 10rem;
-    text-indent: 10rem;
-    text-align: center;
-    padding-top: 5rem; }
+    text-indent: -10rem; }
 
 .videohue {
   display: block;
@@ -89,15 +90,36 @@ p {
   left: 0;
   bottom: 0;
   right: 0;
-  z-index: 3;
   background: #e94e1b;
-  mix-blend-mode: multiply; }
+  mix-blend-mode: multiply;
+  z-index: -1; }
+
+@media only screen and (max-width: 1600px) {
+  .eyes-video h1 {
+    margin-top: 30rem;
+    margin-left: -16rem;
+    font-size: 8rem;
+    letter-spacing: 5rem;
+    text-indent: -5rem; } }
+
+@media only screen and (max-width: 800px) {
+  .eyes-video h1 {
+    margin-top: 30rem;
+    margin-left: -9rem;
+    font-size: 4rem;
+    letter-spacing: 2rem;
+    text-indent: -2rem; } }
+
+@media only screen and (max-width: 320px) {
+  .eyes-video h1 {
+    font-size: 3em;
+    letter-spacing: 2rem;
+    margin-left: -7rem; } }
 
 /* -----------------------------------------------------------------------*	INFO VIDEO
 \* -----------------------------------------------------------------------*/
-.info-video {
-  margin: 0; }
-
+/* -----------------------------------------------------------------------*	FORM
+\* -----------------------------------------------------------------------*/
 .video-container {
   background-color: #AADEE9;
   width: 1150px;
@@ -107,6 +129,60 @@ p {
     margin: auto; }
   .video-container svg:hover {
     fill: #999999; }
-  .video-container video {
-    position: relative;
-    top: -600px; }
+
+/* -----------------------------------------------------------------------*  FOOTER
+\* -----------------------------------------------------------------------*/
+footer {
+  background-color: #070707; }
+
+footer p {
+  color: white;
+  font-family: 'P22UndergroundPro-Book';
+  text-align: center;
+  font-size: 0.5rem;
+  padding-top: 3rem;
+  padding-bottom: 2rem; }
+
+.footer-light {
+  background-color: #474747;
+  padding: 1rem; }
+
+footer svg {
+  height: 4rem;
+  width: 4rem; }
+
+footer svg:hover #facebook, footer svg:hover #twitter,
+footer svg:hover #instagram {
+  fill: #555555; }
+
+footer a svg #facebook, footer a svg #twitter,
+footer a svg #instagram {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out; }
+
+svg:hover #logo {
+  fill: #212121; }
+
+svg:hover #logo {
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 200ms;
+  -webkit-transition-timing-function: ease-in-out; }
+
+.footer-menu {
+  background-color: #313131;
+  padding: 0.5rem;
+  padding-bottom: 2rem; }
+
+.footer-menu a {
+  color: #fff;
+  font-size: 0.7rem; }
+
+.footer-menu a:hover {
+  color: #d5d5d5; }
+
+.footer-menu ul {
+  line-height: 0.5rem;
+  text-align: center; }

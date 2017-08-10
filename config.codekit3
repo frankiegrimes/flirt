@@ -43,6 +43,17 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/assets\/img\/down.png": {
+		"ft": 32768,
+		"iS": 7445,
+		"oA": 0,
+		"oAP": "\/assets\/img\/down.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/poster.png": {
 		"ft": 32768,
 		"iS": 576944,
