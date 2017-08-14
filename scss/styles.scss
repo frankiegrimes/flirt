@@ -5,6 +5,8 @@
 $light-blue: #AADEE9;
 $orange: #E94E1B;
 
+
+
 /* -----------------------------------------------------------------------*\
  FONT DECLARATIONS
 \* -----------------------------------------------------------------------*/
@@ -66,10 +68,11 @@ p {
  NAVIGATION
 \* -----------------------------------------------------------------------*/
 
+
+
 .top-bar {
     padding: 1rem;
     text-transform: uppercase;
-
 }
 
 .top-bar, .top-bar ul {
@@ -77,6 +80,7 @@ p {
   font-size: 2rem;
   line-height: 1.3rem;
   background-color: transparent;
+  z-index: 20;
 
 }
 
@@ -86,10 +90,27 @@ p {
 
 .top-bar a {
   color: #fff;
+  position: relative;
+  text-decoration: none;
 }
 
-.top-bar a:hover {
-  color: #222222;
+.top-bar a:before {
+  content: "";
+  position: absolute;
+  width: 82%;
+  height: 2px;
+  bottom: 0;
+  left: 1.1rem;
+  background-color: #fff;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.top-bar a:hover:before {
+  color: #fff;
+  visibility: visible;
+  transform: scaleX(1);
 }
 
 /* -----------------------------------------------------------------------*\
@@ -104,8 +125,15 @@ p {
   img {
   	height: 10%;
 	margin-left: -5rem;
-	margin-top: 5rem;
+	margin-top: 10rem;
   }
+
+  img:hover {
+  	filter: brightness(0%);
+  	transition: 0.4s;
+  }
+  
+
 
   #video_bg {
     position: absolute;
@@ -187,7 +215,22 @@ text-indent: -2rem;
 
 
 
-.info-video {
+#info-vid {
+	z-index: -1;
+}
+
+#replay-btn {
+
+	img {
+		
+	height: 20%;
+	position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding-right: 6rem; 
+  
+	}
 
 }
 

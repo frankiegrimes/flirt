@@ -1,4 +1,30 @@
 $(document).foundation();
+
+$("#replay-btn").hide();
+// Anchor Link Scroll
+var infovid = $('#info-vid');
+
+$("#down-btn").click(function(){
+    $('html, body').animate({
+        scrollTop: $( $(this).attr('href') ).offset().top
+    }, 500);
+    return false;
+    
+});
+
+$("#down-btn").click(function(){
+	infovid.get(0).play();
+});
+
+infovid.on('ended',function(){
+      $("#replay-btn").show();
+    });
+
+$("#replay-btn").click(function(){
+	$("#replay-btn").hide();
+	infovid.get(0).play();
+});
+// Record Video Function
  
 $('#take-video').click(function(){
 
@@ -11,16 +37,19 @@ $('#take-video').click(function(){
 		  var video = document.querySelector('#webcam');
 		  
 		  video.srcObject = mediaStream;
-		  video.onloadedmetadata = function(e) {
+		  video.onloadedmetadata = function(/*e*/) {
 
 		    video.play();
-		    console.log('ran function');
 		    $('#webvideo-container').hide();
 
 		  };
 		})
-		.catch(function(err) { console.log(err.name + ": " + err.message); }); // always check for errors at the end.
+		.catch(function(err) { document.console.log(err.name + ": " + err.message); }); // always check for errors at the end.
 
 
  });
+
+
+
+
 
