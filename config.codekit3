@@ -65,6 +65,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/replay.png": {
+		"ft": 32768,
+		"iS": 14008,
+		"oA": 0,
+		"oAP": "\/assets\/img\/replay.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/video\/eyes.mp4": {
 		"ft": 8192,
 		"oA": 2,
@@ -6493,6 +6504,7 @@
 	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
 	"jsHintFlags2": {
 		"asi": {
 			"active": 0,

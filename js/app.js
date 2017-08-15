@@ -16,6 +16,10 @@ $("#down-btn").click(function(){
 	infovid.get(0).play();
 });
 
+$("#upload").click(function(){
+	$(".video-container").hide();
+});
+
 infovid.on('ended',function(){
       $("#replay-btn").show();
     });
