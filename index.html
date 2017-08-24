@@ -83,30 +83,30 @@
            </div>
          </div>
 
-      <div class="grid-container">
-        <div class="grid-x grid-padding-x align-center">
-            <div class="callout">
-     
+    <!--- WEBCAM SECTION  -->
 
-                <div class="video-container">
-                <div class="large-12 cell">
+    <section class="upload-section">
+      <div class="grid-container">
+        <div class="grid-x align-center">
+            
+                
          
              
             
-                <a id="take-video"> <svg id="upload" xmlns="http://www.w3.org/2000/svg" width="100px" height="600px" viewBox="0 0 65.7 87.45">
-                  
-                  <path d="M24.2,93.7H75.9a7,7,0,0,0,7-7V45.1a7,7,0,0,0-7-7H63v6H75.8a.94.94,0,0,1,1,1V86.8a.94.94,0,0,1-1,1H24.2a.94.94,0,0,1-1-1V45.1a.94.94,0,0,1,1-1H37v-6H24.2a7,7,0,0,0-7,7V86.8A6.94,6.94,0,0,0,24.2,93.7Z" transform="translate(-17.2 -6.25)"/>
-                  <path d="M46.5,15.8V55.6h6V15.8L64.3,25.9l3.9-4.6L51.5,7a2.91,2.91,0,0,0-3.9,0L30.8,21.4,34.7,26Z" transform="translate(-17.2 -6.25)"/>
-                </svg>
+                <a id="take-video"> 
+          <img src="assets/img/camera.png">
                 </a>
-            
+            </div>
+           
                 <video id="webcam" autoplay></video>
             </div>
             </div>
+            </div>
   
-      
+      <div class="callout">
             <div class="grid-x grid-padding-x align-center">
               <div class="large-6 medium-6 small-6 cell">
+
 
               <!-- VIDEO UPLOAD FORM -->
                 <form action="server.cgi" method="post" enctype="multipart/form-data">
@@ -157,37 +157,38 @@
       </div>
     </div>
   </div>
-
+</section>
   <!--- FOOTER -->
 
   <footer>
     <div class="footer-light">
-      <div class="grid-x grid-padding-x">
-        <div class="small-2 cell"></div>
-        <div class="small-3 cell">
+      <div class="grid-x grid-padding-x align-center">
+      <div class="small-2 cell"></div>
+        <div class="small-2 cell">
+        <a href="">
+        <img src="assets/img/logo1.png">
+        </a>
+        </div>
+        <div class="small-2 cell">
           <a href="http://www.facebook.com/simsimmadublin" target="_blank">
-          <svg width="4rem" height="4rem" version="1.1" xmlns="http://www.w3.org/2000/svg" xml:space="preserve">
-          <path id="facebook" fill=#ffffff d="M40.43,21.74H32.78v-5a2,2,0,0,1,2.13-2.32h5.4V6.13l-7.43,0c-8.25,0-10.12,6.17-10.12,10.13v5.52H18v8.53h4.77V54.41h10V30.27h6.77Z"/></svg>
+            <img src="assets/img/logo2.png">
           </a>
         </div>
-        <div class="small-3 cell">
+        <div class="small-2 cell">
           <a href="http://www.twitter.com/simsimmadublin">
-          <svg width="5rem" height="4rem" viewBox="0 0 500 500"><path fill="#fff" id="twitter" d="M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"/></svg>
+          <img src="assets/img/logo3.png">
+          </a>
         </div>
         <div class="small-2 cell">
           <a href="http://www.instagram.com/simsimmadublin">
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
-             width="4rem" height="4rem" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
-             <path id="instagram" fill="#ffffff" d="M22.107,3.415H7.893c-2.469,0-4.479,2.007-4.479,4.477v4.73v9.486c0,2.469,2.01,4.479,4.479,4.479h14.215
-            c2.469,0,4.479-2.01,4.479-4.479v-9.486v-4.73C26.586,5.421,24.576,3.415,22.107,3.415 M23.393,6.086l0.512-0.004v0.511v3.416
-            l-3.916,0.014l-0.012-3.928L23.393,6.086z M11.693,12.622c0.742-1.028,1.945-1.7,3.307-1.7s2.564,0.672,3.307,1.7
-            c0.484,0.67,0.771,1.49,0.771,2.379c0,2.248-1.828,4.078-4.078,4.078c-2.248,0-4.078-1.83-4.078-4.078
-            C10.922,14.112,11.211,13.292,11.693,12.622 M24.328,22.107c0,1.225-0.994,2.219-2.221,2.219H7.893
-            c-1.225,0-2.219-0.994-2.219-2.219v-9.486h3.459C8.832,13.356,8.664,14.159,8.664,15c0,3.494,2.842,6.335,6.336,6.335
-            s6.336-2.842,6.336-6.335c0-0.842-0.17-1.645-0.467-2.379h3.459V22.107z"/>
-            </svg>
+          <img src="assets/img/logo4.png">
+          </a>
         </div>
-        <div class="small-2 cell"></div>
+        <div class="small-2 cell">
+        <a href="">
+        <img src="assets/img/logo5.png">
+        </a>
+        </div>
       </div>
     </div>
     

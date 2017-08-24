@@ -16,6 +16,11 @@ $("#down-btn").click(function(){
 	infovid.get(0).play();
 });
 
+$("#take-video").click(function(){
+	$(".callout").show();
+	$("#take-video").hide();
+});
+
 $("#upload").click(function(){
 	$(".video-container").hide();
 });

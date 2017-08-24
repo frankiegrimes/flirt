@@ -4,19 +4,19 @@
 \* -----------------------------------------------------------------------*/
 @font-face {
   font-family: 'ProximaNova-Bold';
-  src: url("../assets/fonts/Proxima-Nova-Bold.eot") format("eot"), url("../assets/fonts/Proxima-Nova-Bold.woff") format("woff"), url("../assets/fonts/Proxima-Nova-Bold.ttf") format("truetype"), url("../assets/fonts/Proxima-Nova-Bold.svg") format("svg"), url("../assets/fonts/Proxima-Nova-Bold.otf") format("otf");
+  src: url("../assets/fonts/proxima-nova-bold.eot") format("eot"), url("../assets/fonts/proxima-nova-bold.woff") format("woff"), url("../assets/fonts/proxima-nova-bold.ttf") format("truetype"), url("../assets/fonts/proxima-nova-bold.svg") format("svg"), url("../assets/fonts/proxima-nova-bold.otf") format("otf");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'ProximaNova-Semibold';
-  src: url("../assets/fonts/Proxima-Nova-Semibold.eot") format("eot"), url("../assets/fonts/Proxima-Nova-Semibold.woff") format("woff"), url("../assets/fonts/Proxima-Nova-Semibold.ttf") format("truetype"), url("../assets/fonts/Proxima-Nova-Semibold.svg") format("svg"), url("../assets/fonts/Proxima-Nova-Semibold.otf") format("otf");
+  src: url("../assets/fonts/proxima-nova-semibold.eot") format("eot"), url("../assets/fonts/proxima-nova-semibold.woff") format("woff"), url("../assets/fonts/proxima-nova-semibold.ttf") format("truetype"), url("../assets/fonts/proxima-nova-semibold.svg") format("svg"), url("../assets/fonts/proxima-nova-semibold.otf") format("otf");
   font-weight: normal;
   font-style: normal; }
 
 @font-face {
   font-family: 'ProximaNova-Light';
-  src: url("../assets/fonts/Proxima-Nova-Light.eot") format("eot"), url("../assets/fonts/Proxima-Nova-Light.woff") format("woff"), url("../assets/fonts/Proxima-Nova-Light.ttf") format("truetype"), url("../assets/fonts/Proxima-Nova-Light.svg") format("svg"), url("../assets/fonts/Proxima-Nova-Light.otf") format("otf");
+  src: url("../assets/fonts/proxima-nova-light.eot") format("eot"), url("../assets/fonts/proxima-nova-light.woff") format("woff"), url("../assets/fonts/proxima-nova-light.ttf") format("truetype"), url("../assets/fonts/proxima-nova-light.svg") format("svg"), url("../assets/fonts/proxima-nova-light.otf") format("otf");
   font-weight: normal;
   font-style: normal; }
 
@@ -64,6 +64,7 @@ p {
   visibility: hidden;
   -webkit-transform: scaleX(0);
           transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s; }
 
 .top-bar a:hover:before {
@@ -71,6 +72,44 @@ p {
   visibility: visible;
   -webkit-transform: scaleX(1);
           transform: scaleX(1); }
+
+.menu-icon {
+  z-index: 20; }
+
+@media only screen and (max-width: 640px) {
+  .top-bar, .top-bar ul {
+    font-family: "ProximaNova-Bold";
+    font-size: 2rem;
+    line-height: 1.3rem;
+    background-color: black;
+    z-index: 20; }
+  .top-bar a {
+    color: white;
+    position: relative;
+    text-decoration: none; }
+  .top-bar li {
+    padding: 0rem 2rem;
+    background-color: black; }
+  .top-bar li a {
+    background-color: black; }
+  .top-bar a:before {
+    content: "";
+    position: absolute;
+    width: 40%;
+    height: 2px;
+    bottom: 0;
+    left: 1.1rem;
+    background-color: white;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+  .top-bar a:hover:before {
+    color: white;
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1); } }
 
 /* -----------------------------------------------------------------------*	LANDING PAGE
 \* -----------------------------------------------------------------------*/
@@ -85,6 +124,7 @@ p {
   .eyes-video img:hover {
     -webkit-filter: brightness(0%);
             filter: brightness(0%);
+    -webkit-transition: 0.4s;
     transition: 0.4s; }
   .eyes-video #video_bg {
     position: absolute;
@@ -97,7 +137,10 @@ p {
     z-index: -2;
     filter: grayscale(1);
     -webkit-filter: grayscale(1);
-    filter: grayscale(100%); }
+    filter: grayscale(100%);
+    background: url(../assets/img/poster.png) no-repeat;
+    background-size: cover;
+    display: block; }
   .eyes-video h1 {
     margin-top: 30rem;
     color: white;
@@ -126,12 +169,24 @@ p {
     text-indent: -5rem; } }
 
 @media only screen and (max-width: 800px) {
+  .eyes-video {
+    background: url(../assets/img/poster.png) no-repeat center center fixed;
+    background-size: cover;
+    min-height: 100vh; }
+    .eyes-video #video_bg {
+      display: none; }
   .eyes-video h1 {
-    margin-top: 30rem;
-    margin-left: -9rem;
+    margin-top: 15rem;
+    margin-left: -8rem;
     font-size: 4rem;
     letter-spacing: 2rem;
-    text-indent: -2rem; } }
+    text-indent: -2rem; }
+  .videohue {
+    display: none; }
+  #down-btn img {
+    max-height: 80px;
+    margin-top: 0rem;
+    margin-left: -6.6rem; } }
 
 @media only screen and (max-width: 320px) {
   .eyes-video h1 {
@@ -155,15 +210,41 @@ p {
 
 /* -----------------------------------------------------------------------*	FORM
 \* -----------------------------------------------------------------------*/
-.video-container {
+.upload-section {
   background-color: #ED6E44;
-  width: 1150px;
-  height: 647px; }
-  .video-container svg {
-    display: block;
-    margin: auto; }
-  .video-container svg:hover {
-    fill: #999999; }
+  min-height: 100vh; }
+
+.video-container svg {
+  display: block;
+  margin: auto; }
+
+.video-container svg:hover {
+  fill: #999999; }
+
+.callout {
+  display: none;
+  margin: 0; }
+
+#take-video img {
+  position: relative;
+  left: 50%;
+  top: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+
+@media only screen and (max-width: 800px) {
+  .callout #webcam {
+    display: none; }
+  #take-video img {
+    position: relative;
+    left: 50%;
+    top: 100%;
+    max-width: 50%;
+    max-height: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%); } }
 
 /* -----------------------------------------------------------------------*  FOOTER
 \* -----------------------------------------------------------------------*/
@@ -182,29 +263,9 @@ footer p {
   background-color: #474747;
   padding: 1rem; }
 
-footer svg {
-  height: 4rem;
-  width: 4rem; }
-
-footer svg:hover #facebook, footer svg:hover #twitter,
-footer svg:hover #instagram {
-  fill: #555555; }
-
-footer a svg #facebook, footer a svg #twitter,
-footer a svg #instagram {
-  transition: 200ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 200ms;
-  -webkit-transition-timing-function: ease-in-out; }
-
-svg:hover #logo {
-  fill: #212121; }
-
-svg:hover #logo {
-  transition: 200ms;
-  transition-timing-function: ease-in-out;
-  -webkit-transition: 200ms;
-  -webkit-transition-timing-function: ease-in-out; }
+.footer-light img {
+  max-height: 3rem;
+  padding: 0 0rem; }
 
 .footer-menu {
   background-color: #313131;
