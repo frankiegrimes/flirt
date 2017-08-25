@@ -5557,6 +5557,12 @@
 		"oAP": "\/bower_components\/what-input\/yarn.lock",
 		"oF": 0
 		},
+	"\/confirm.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/confirm.php",
+		"oF": 0
+		},
 	"\/css\/app.css": {
 		"aP": 1,
 		"bl": 0,
@@ -5576,6 +5582,12 @@
 		"oAP": "\/css\/styles-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"\/form.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/form.php",
+		"oF": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
@@ -5655,6 +5667,18 @@
 		"oF": 2,
 		"oS": 0,
 		"uL": 1
+		},
+	"\/upload\/deray.m4v": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/upload\/deray.m4v",
+		"oF": 0
+		},
+	"\/upload_file.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/upload_file.php",
+		"oF": 0
 		}
 	},
 "hooks": [
@@ -5669,7 +5693,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
-	"alwaysUseExternalServer": 0,
+	"alwaysUseExternalServer": 1,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
@@ -7055,7 +7079,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/localhost:8888",
+	"externalServerAddress": "localhost",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

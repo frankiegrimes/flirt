@@ -92,13 +92,11 @@
                 
          
              
-            
-                <a id="take-video"> 
-          <img src="assets/img/camera.png">
-                </a>
+            <h1>Thank you for your upload!><h1>
+                
             </div>
            
-                <video id="webcam" autoplay></video>
+               
             </div>
             </div>
             </div>
@@ -109,49 +107,7 @@
 
 
               <!-- VIDEO UPLOAD FORM -->
-                <form action="upload_file.php" method="post" enctype="multipart/form-data">
-
-            
-                <br>
-                <input type="file" name="file" accept="video/*" capture>         
-       
-              </div>
-            </div>
-      
-            <br>
-            
-              <!-- INFORMATION FORM -->
-          
-                    <div class="grid-x grid-padding-x align-center">
-                      <div class="large-6 medium-6 small-6 cell">
-                        <label>Name:</label>
-                        <input type="text" name="name" placeholder="Angela Merkel" />
-                      </div>
-                    </div>
-
-                      <div class="grid-x grid-padding-x align-center">
-                      <div class="large-6 medium-6 small-6 cell">
-                        <label>Email:</label>
-                        <input type="text" placeholder="Schicken wir Dir eine Einladungsemail mit genauen Infos"/>
-                      </div>
-                    </div>
-
-                    
-
-                    <div class="grid-x grid-padding-x align-center">
-                      <div class="large-6 medium-6 small-6 cell">
-                        <label>Freies FLIRTen:</label>
-                        <input type="text" placeholder="Hier kannst Du auch eine FLIRT-Geschichte reinschreiben" />
-                      </div>
-                    </div>
-
-
-                     <div class="grid-x grid-padding-x align-center">
-                      <div class="large-6 medium-6 small-6 cell">
-                        <input type="submit" name="submit" value="Hochladen">
-                      </div>
-                    </div>
-            </form>
+                
 
           </div>
         </div>
