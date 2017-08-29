@@ -33,6 +33,112 @@ $("#replay-btn").click(function(){
 	$("#replay-btn").hide();
 	infovid.get(0).play();
 });
+
+// Animate Gif function
+
+$(function() {
+
+        $("#declan").hover(
+            function() {
+                $(this).attr("src", "assets/gif/declan.gif");
+            },
+            function() {
+                $(this).attr("src", "assets/img/declan.jpg");
+            }                         
+        ); 
+
+        $("#esther").hover(
+            function() {
+                $(this).attr("src", "assets/gif/esther.gif");
+            },
+            function() {
+                $(this).attr("src", "assets/img/esther.jpg");
+            }                         
+        );   
+
+        $("#kathrin").hover(
+            function() {
+                $(this).attr("src", "assets/gif/kathrin.gif");
+            },
+            function() {
+                $(this).attr("src", "assets/img/kathrin.jpg");
+            }                         
+        );              
+
+        $("#pavel").hover(
+            function() {
+                $(this).attr("src", "assets/gif/pavel.gif");
+            },
+            function() {
+                $(this).attr("src", "assets/img/pavel.jpg");
+            }                         
+        );              
+
+        $("#pia").hover(
+            function() {
+                $(this).attr("src", "assets/gif/pia.gif");
+            },
+            function() {
+                $(this).attr("src", "assets/img/pia.jpg");
+            }                         
+        );              
+
+        $("#rafael").hover(
+            function() {
+                $(this).attr("src", "assets/gif/rafael.gif");
+            },
+            function() {
+                $(this).attr("src", "assets/img/rafael.jpg");
+            }                         
+        );              
+
+        $("#regina").hover(
+            function() {
+                $(this).attr("src", "assets/gif/regina.gif");
+            },
+            function() {
+                $(this).attr("src", "assets/img/regina.jpg");
+            }                         
+        );              
+
+        $("#sophia").hover(
+            function() {
+                $(this).attr("src", "assets/gif/sophia.gif");
+            },
+            function() {
+                $(this).attr("src", "assets/img/sophia.jpg");
+            }                         
+        );              
+
+        $("#tumay").hover(
+            function() {
+                $(this).attr("src", "assets/gif/tumay.gif");
+            },
+            function() {
+                $(this).attr("src", "assets/img/tumay.jpg");
+            }                         
+        );              
+
+        $("#wera").hover(
+            function() {
+                $(this).attr("src", "assets/gif/wera.gif");
+            },
+            function() {
+                $(this).attr("src", "assets/img/wera.jpg");
+            }                         
+        );              
+
+        $("#xenia").hover(
+            function() {
+                $(this).attr("src", "assets/gif/xenia.gif");
+            },
+            function() {
+                $(this).attr("src", "assets/img/xenia.jpg");
+            }                         
+        );                         
+    });
+
+
 // Record Video Function
  
 $('#take-video').click(function(){
