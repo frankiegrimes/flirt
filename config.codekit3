@@ -5825,6 +5825,12 @@
 		"oAP": "\/js\/min\/app-min.js.map",
 		"oF": 0
 		},
+	"\/kontakt.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/kontakt.html",
+		"oF": 0
+		},
 	"\/package.json": {
 		"ft": 524288,
 		"oA": 1,
@@ -5872,6 +5878,12 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/stuck.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/stuck.html",
+		"oF": 0
+		},
 	"\/team.html": {
 		"ft": 8192,
 		"oA": 2,
@@ -5888,6 +5900,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/upload_file.php",
+		"oF": 0
+		},
+	"\/wach.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/wach.html",
 		"oF": 0
 		}
 	},

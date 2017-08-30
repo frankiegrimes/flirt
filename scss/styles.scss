@@ -190,6 +190,11 @@ text-indent: 2rem;
   padding: 1rem;
 }
 
+.logo:hover {
+      filter: brightness(0%);
+  transition: all 0.2s ease-in-out 0s;
+}
+
 .top-bar-left a:hover:before {
 
   visibility: hidden;
@@ -418,6 +423,18 @@ text-indent: 2rem;
   padding: 5rem 0rem;
 }
 
+.video-btn {
+  border: solid white 2px;
+  margin: 0 auto;
+  max-width: 30rem;
+  padding-top: 0.3rem;
+}
+
+.video-btn:hover {
+    filter: brightness(0%);
+  transition: all 0.2s ease-in-out 0s;
+}
+
 .video-container{  
 	svg {
 
@@ -442,7 +459,7 @@ video {
   margin: 0;
 }
 
-#take-video 
+.take-video 
  {
       display: flex;
   justify-content: center;
@@ -450,17 +467,17 @@ video {
   
 }
 
-#take-video img 
+.take-video img 
  {
       height: 400px;
       margin: 3rem;
   
 }
 
-#take-video img:hover 
+.take-video img:hover 
  {
     filter: brightness(0%);
-  transition: all 0.3s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 
   
 }
@@ -482,7 +499,7 @@ textarea {
 
 
 
-#take-video img {
+.take-video img {
  height: 150px;
  margin-bottom: 10rem;
 }
@@ -493,7 +510,7 @@ textarea {
   TEAM PAGE
 \* -----------------------------------------------------------------------*/
 
-.team {
+.team, .piece {
   min-height: 100vh;
   margin-top: -5rem;
 

@@ -16,9 +16,9 @@ $("#down-btn").click(function(){
 	infovid.get(0).play();
 });
 
-$("#take-video").click(function(){
+$(".take-video").click(function(){
 	$(".callout").show();
-	$("#take-video").hide();
+	$(".take-video").hide();
 });
 
 $("#upload").click(function(){
@@ -133,7 +133,7 @@ $(function() {
                 $(this).attr("src", "assets/gif/xenia.gif");
             },
             function() {
-                $(this).attr("src", "assets/img/xenia.jpg");
+                $(this).attr("src", "assets/img/xenia  .jpg");
             }                         
         );                         
     });
@@ -141,7 +141,7 @@ $(function() {
 
 // Record Video Function
  
-$('#take-video').click(function(){
+$('.take-video').click(function(){
 
 		// Prefer camera resolution nearest to 1280x720.
 

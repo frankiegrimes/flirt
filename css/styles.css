@@ -123,6 +123,12 @@ p {
   font-size: 1.5rem;
   padding: 1rem; }
 
+.logo:hover {
+  -webkit-filter: brightness(0%);
+          filter: brightness(0%);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
+
 .top-bar-left a:hover:before {
   visibility: hidden; }
 
@@ -267,6 +273,18 @@ p {
   background-color: #ED6E44;
   padding: 5rem 0rem; }
 
+.video-btn {
+  border: solid white 2px;
+  margin: 0 auto;
+  max-width: 30rem;
+  padding-top: 0.3rem; }
+
+.video-btn:hover {
+  -webkit-filter: brightness(0%);
+          filter: brightness(0%);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
+
 .video-container svg {
   display: block;
   margin: auto; }
@@ -278,7 +296,7 @@ p {
   display: none;
   margin: 0; }
 
-#take-video {
+.take-video {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -289,15 +307,15 @@ p {
       -ms-flex-align: center;
           align-items: center; }
 
-#take-video img {
+.take-video img {
   height: 400px;
   margin: 3rem; }
 
-#take-video img:hover {
+.take-video img:hover {
   -webkit-filter: brightness(0%);
           filter: brightness(0%);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s; }
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
 
 textarea {
   min-height: 100px; }
@@ -305,29 +323,29 @@ textarea {
 @media only screen and (max-width: 800px) {
   #webcam {
     display: none; }
-  #take-video img {
+  .take-video img {
     height: 150px;
     margin-bottom: 10rem; } }
 
 /* -----------------------------------------------------------------------*  TEAM PAGE
 \* -----------------------------------------------------------------------*/
-.team {
+.team, .piece {
   min-height: 100vh;
   margin-top: -5rem; }
-  .team h1 {
+  .team h1, .piece h1 {
     margin-top: 10rem;
     font-size: 7rem;
     letter-spacing: 5rem;
     text-indent: 5rem; }
-  .team h2 {
+  .team h2, .piece h2 {
     margin-top: -6rem;
     font-size: 4.3rem;
     letter-spacing: 3rem;
     text-indent: 3rem; }
-  .team h3 {
+  .team h3, .piece h3 {
     font-family: 'ProximaNova-Bold';
     font-size: 1.5rem; }
-  .team h4 {
+  .team h4, .piece h4 {
     font-size: 1.2rem; }
 
 .team .card {
