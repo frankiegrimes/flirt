@@ -258,10 +258,14 @@ p {
           transform: translate(-50%, -50%);
   padding-right: 6rem; }
 
+.responsive-embed, .flex-video {
+  margin-bottom: 0rem; }
+
 /* -----------------------------------------------------------------------*	FORM
 \* -----------------------------------------------------------------------*/
 .upload-section {
-  background-color: #ED6E44; }
+  background-color: #ED6E44;
+  padding: 5rem 0rem; }
 
 .video-container svg {
   display: block;
@@ -287,7 +291,16 @@ p {
 
 #take-video img {
   height: 400px;
-  margin-top: 10rem; }
+  margin: 3rem; }
+
+#take-video img:hover {
+  -webkit-filter: brightness(0%);
+          filter: brightness(0%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s; }
+
+textarea {
+  min-height: 100px; }
 
 @media only screen and (max-width: 800px) {
   #webcam {
@@ -299,7 +312,6 @@ p {
 /* -----------------------------------------------------------------------*  TEAM PAGE
 \* -----------------------------------------------------------------------*/
 .team {
-  background-color: #E94E1B;
   min-height: 100vh;
   margin-top: -5rem; }
   .team h1 {
@@ -312,14 +324,26 @@ p {
     font-size: 4.3rem;
     letter-spacing: 3rem;
     text-indent: 3rem; }
+  .team h3 {
+    font-family: 'ProximaNova-Bold';
+    font-size: 1.5rem; }
+  .team h4 {
+    font-size: 1.2rem; }
 
 .team .card {
   text-align: center;
   border: none;
-  margin: 0; }
+  margin: 1rem; }
+
+.team .card-section {
+  min-height: 13rem;
+  color: #E94E1B; }
+
+.team .card img {
+  border-radius: 10rem; }
 
 .team-grid {
-  padding-top: 5rem; }
+  padding: 5rem; }
 
 @media only screen and (max-width: 800px) {
   .team h1 {
@@ -343,6 +367,9 @@ p {
     text-indent: 1.3rem;
     margin-top: -1rem; } }
 
+.orange {
+  color: #E94E1B; }
+
 /* -----------------------------------------------------------------------*  FOOTER
 \* -----------------------------------------------------------------------*/
 footer {
@@ -359,6 +386,14 @@ footer p {
 .footer-light {
   background-color: #474747;
   padding: 1rem; }
+
+.footer-light .cell {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 .footer-light img {
   max-height: 3rem;

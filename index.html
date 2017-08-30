@@ -28,7 +28,7 @@
     <div class="top-bar-right">
       <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
         <li><a href="team.html">Das Team</a></li>
-        <li><a href="stuck.html">Das Stuck</a></li>
+        <li><a href="stuck.html">Das Stück</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
         <li><a href="wach.html">Wach?</a></li>
       </ul>
@@ -38,9 +38,9 @@
    <!--- LANDING PAGE  -->
 
   <section class="eyes-video">
-      <video autoplay loop muted poster="/assets/img/poster.png" id="video_bg">
-        <source src="/assets/video/eyes.webm" type="video/webm">
-        <source src="/assets/video/eyes.mp4" type="video/mp4">
+      <video autoplay preload loop muted poster="assets/img/poster.png" id="video_bg">
+        <source src="assets/video/eyes.webm" type="video/webm">
+        <source src="assets/video/eyes.mp4" type="video/mp4">
       </video>
       <div class="videohue"></div>
 
@@ -63,10 +63,10 @@
       <!--- INFORMATION VIDEO  -->
       <section id="info-video">
             <div class="responsive-embed widescreen">
-                    <video id="info-vid" src="assets/video/info-video.mov" muted poster="">
+                    <video preload id="info-vid" src="assets/video/info-video.mov" muted poster="">
                       <source src="" type="">
                     </video>
-                    <div class="grid-x grid-padding-x">
+                    <div class="grid-x">
                       <div class="small-4 cell"></div>
                       <div class="small-4 cell">
                         <a id="replay-btn">
@@ -82,11 +82,17 @@
     <!--- WEBCAM SECTION  -->
 
     <section class="upload-section">
+
              <div class="grid-x align-center align-middle">
                 <div class="small-12 cell">
                   <a id="take-video"> 
                     <img src="assets/img/camera.png">
                   </a>
+                </div>
+              </div>
+                  <div class="grid-x">
+                <div class="small-12 cell">
+                  <h2 class="text-center"> Video Aufnehmen</h2>
                 </div>
               </div>
           
@@ -117,14 +123,14 @@
                     <div class="grid-x grid-padding-x align-center">
                       <div class="large-6 medium-6 small-6 cell">
                         <label>Name:</label>
-                        <input type="text" name="name" placeholder="Angela Merkel" />
+                        <input type="text" name="name" />
                       </div>
                     </div>
 
                       <div class="grid-x grid-padding-x align-center">
                       <div class="large-6 medium-6 small-6 cell">
                         <label>Email:</label>
-                        <input type="text" placeholder="Schicken wir Dir eine Einladungsemail mit genauen Infos"/>
+                        <input type="text"/>
                       </div>
                     </div>
 
@@ -133,7 +139,7 @@
                     <div class="grid-x grid-padding-x align-center">
                       <div class="large-6 medium-6 small-6 cell">
                         <label>Freies FLIRTen:</label>
-                        <input type="text" placeholder="Hier kannst Du auch eine FLIRT-Geschichte reinschreiben" />
+                        <textarea type="text" placeholder="Hier kannst Du auch eine FLIRT-Geschichte reinschreiben"/></textarea>
                       </div>
                     </div>
 
@@ -153,8 +159,7 @@
   <footer>
     <div class="footer-light">
       <div class="grid-x grid-padding-x align-center align-middle">
-      <div class="small-2 cell"></div>
-        <div class="small-2 cell">
+        <div class="small-1 cell">
         <a href="">
         <img src="assets/img/logo1.png">
         </a>
@@ -188,7 +193,7 @@
         <div class="cell">
         <ul class="small-vertical medium-horizontal menu align-center">
           <li><a href="team.html">Das Team</a></li>
-          <li><a href="stuck.html">Das Stuck</a></li>
+          <li><a href="stuck.html">Das Stück</a></li>
           <li><a href="kontakt.html">Kontakt</a></li>
           <li><a href="wach.html">Wach?</a></li>
         </div>

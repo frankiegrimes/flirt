@@ -4,6 +4,7 @@
 
 $light-blue: #AADEE9;
 $orange: #E94E1B;
+$light-orange: #EE964B;
 
 
 
@@ -404,12 +405,17 @@ text-indent: 2rem;
 
 }
 
+.responsive-embed, .flex-video {
+  margin-bottom: 0rem;
+}
+
 /* -----------------------------------------------------------------------*\
 	FORM
 \* -----------------------------------------------------------------------*/
 
 .upload-section {
 	background-color: #ED6E44;
+  padding: 5rem 0rem;
 }
 
 .video-container{  
@@ -447,11 +453,23 @@ video {
 #take-video img 
  {
       height: 400px;
-      margin-top: 10rem;
+      margin: 3rem;
+  
+}
+
+#take-video img:hover 
+ {
+    filter: brightness(0%);
+  transition: all 0.3s ease-in-out 0s;
+
   
 }
 
 
+
+textarea {
+  min-height: 100px;
+}
 
 
 
@@ -476,7 +494,6 @@ video {
 \* -----------------------------------------------------------------------*/
 
 .team {
-  background-color: $orange;
   min-height: 100vh;
   margin-top: -5rem;
 
@@ -495,16 +512,35 @@ video {
 
   }
 
+  h3 {
+    font-family: 'ProximaNova-Bold';
+    font-size: 1.5rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
 }
 
 .team .card {
   text-align: center;
   border: none;
-  margin: 0;
+  margin: 1rem;
+
+}
+
+.team .card-section {
+  min-height: 13rem;
+  color: $orange;
+}
+
+.team .card img {
+  border-radius: 10rem;
 }
 
 .team-grid {
-  padding-top: 5rem;
+  padding: 5rem;
 }
 
 @media only screen and (max-width: 800px) {
@@ -543,6 +579,10 @@ video {
 
 }
 
+.orange {
+  color: $orange;
+}
+
 /* -----------------------------------------------------------------------*\
   FOOTER
 \* -----------------------------------------------------------------------*/
@@ -567,6 +607,12 @@ footer p {
   padding: 1rem;
 
  
+}
+
+.footer-light .cell {
+  display: flex;
+  justify-content: center;
+
 }
 
 .footer-light img {
