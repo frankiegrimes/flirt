@@ -5,16 +5,17 @@ $extension = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
 $file_path = "confirm.php";
 $content = file_get_contents($file_path);
 
-$name = $_POST["name"];
-$email = $_POST["email"];
-$description = $_POST["description"];
+
 
 $db_server = "rdbms.strato.de";
 $db_user = "U3086321";
 $db_password = "fl1rtestdumitmir";
 $db_name = "DB3086321";
+$table_name = "flirttable";
 
-$link = mysqli_connect($db_server, $db_user, $db_password);
+
+
+$link = mysqli_connect($db_server, $db_user, $db_password, $db_name);
 
 if(!$link)
 {
@@ -27,14 +28,16 @@ if(!$link)
 $name = mysqli_real_escape_string($link, $_REQUEST['name']);
 $email = mysqli_real_escape_string($link, $_REQUEST['email']);
 $description = mysqli_real_escape_string($link, $_REQUEST['description']);
+$filename = $_FILES["file"]["name"];
 
-$sql =  "INSERT INTO '$db_name' (name, email, description) VALUES ('$name', '$email', '$description')";
+$sql =  "INSERT INTO $table_name (name, email, description, videotitle) VALUES ('$name', '$email', '$description', '$filename')";
 
 
 if(mysqli_query($link, $sql)){
     echo "Records inserted successfully.";
 } else{
-    echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+    echo "ERROR: Could not execute $sql. " . mysqli_error($link);
+    echo $filename;
 }
 
 mysqli_close($link);
