@@ -1,12 +1,13 @@
 <?php
 
-$allowedExts = array("mov", "wmv", "m4v", "avi", "mp4");
+$allowedExts = array("MOV", "wmv", "m4v", "avi", "mp4");
 $extension = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
 $file_path = "confirm.php";
 $content = file_get_contents($file_path);
 
 
 if ((($_FILES["file"]["type"] == "video/mp4")
+|| ($_FILES["file"]["type"] == "video/quicktime")
 || ($_FILES["file"]["type"] == "video/mov")
 || ($_FILES["file"]["type"] == "video/wmv")
 || ($_FILES["file"]["type"] == "video/avi")
@@ -41,5 +42,6 @@ else
   {
   echo "Invalid file";
   echo $_FILES["file"]["type"];
+  echo $extension;
   }
 ?>

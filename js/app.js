@@ -1,6 +1,11 @@
 $(document).foundation();
 
+$(document).ready(function() {
+
+var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
+
 $("#replay-btn").hide();
+$("#webcam").hide();
 // Anchor Link Scroll
 var infovid = $('#info-vid');
 
@@ -19,6 +24,8 @@ $("#down-btn").click(function(){
 $(".take-video").click(function(){
 	$(".callout").show();
 	$(".take-video").hide();
+	$(".video-btn").hide();
+	
 });
 
 $("#upload").click(function(){
@@ -140,8 +147,12 @@ $(function() {
 
 
 // Record Video Function
+
+
  
 $('.take-video').click(function(){
+
+	if(!isMobile) {
 
 		// Prefer camera resolution nearest to 1280x720.
 
@@ -154,6 +165,7 @@ $('.take-video').click(function(){
 		  video.srcObject = mediaStream;
 		  video.onloadedmetadata = function(/*e*/) {
 
+		  	$("#webcam").show();
 		    video.play();
 		    $('#webvideo-container').hide();
 
@@ -161,10 +173,12 @@ $('.take-video').click(function(){
 		})
 		.catch(function(err) { document.console.log(err.name + ": " + err.message); }); // always check for errors at the end.
 
-
+	}
  });
 
 
 
 
+
+});
 

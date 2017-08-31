@@ -323,6 +323,7 @@ text-indent: 2rem;
 
 #down-btn img {
   height: 100px;
+  margin-right: 1.5rem;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -362,6 +363,7 @@ text-indent: 2rem;
    #down-btn img {
     margin-top: 5rem;
       height: 60px;
+        margin-right: 1rem;
 
 
    }
@@ -372,6 +374,7 @@ text-indent: 2rem;
 
    .eyes-video h1 { 
    	font-size: 3em; 
+      margin-right: 0rem;
 
 
    }
@@ -418,6 +421,20 @@ text-indent: 2rem;
 	FORM
 \* -----------------------------------------------------------------------*/
 
+.desktop-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#webcam {
+    border: solid 5px white;
+    margin:: 2rem;
+    box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, .2);
+
+}
+
 .upload-section {
 	background-color: #ED6E44;
   padding: 5rem 0rem;
@@ -456,7 +473,9 @@ video {
 
 .callout {
  display: none;
-  margin: 0;
+  margin: 0 auto;
+  padding: 2rem;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, .2);
 }
 
 .take-video 
@@ -488,9 +507,54 @@ textarea {
   min-height: 100px;
 }
 
+@media only screen and (min-width: 1200px) {
+
+  .callout {
+ display: none;
+  margin: 0 auto;
+  width: 1150px;
+  padding: 2rem;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, .2);
+}
+
+  }
+
+@media only screen and (max-width: 1200px) {
+
+  #webcam {
+    max-width: 50rem;
+  }
+
+  .callout {
+ display: none;
+  margin: 0 auto;
+  max-width: 50rem;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, .2);
+}
+
+  }
+
 
 
 @media only screen and (max-width: 800px) {
+
+  .callout {
+ display: none;
+  margin: 0 auto;
+  max-width: 30rem;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, .2);
+}
+
+  .video-btn {
+    border: solid white 2px;
+    margin: 0 auto;
+    max-width: 20rem;
+     margin-bottom: 3rem;
+  }
+
+  .video-btn h2 {
+    font-size: 2rem;
+  }
 
 
     #webcam {
@@ -500,9 +564,39 @@ textarea {
 
 
 .take-video img {
- height: 150px;
- margin-bottom: 10rem;
+ height: 250px;
+ margin-bottom: 3rem;
 }
+
+}
+
+@media only screen and (max-width: 400px) {
+
+   .callout {
+ display: none;
+  margin: 0 auto;
+  max-width: 20rem;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, .2);
+}
+
+  .take-video img 
+   {
+        height: 250px;
+        margin: 3rem;
+    
+  }
+
+  .video-btn {
+    border: solid white 2px;
+    margin: 0 auto;
+    max-width: 20rem;
+     margin-bottom: 3rem;
+  }
+
+  .video-btn h2 {
+   
+
+  }
 
 }
 
@@ -627,7 +721,6 @@ footer p {
 }
 
 .footer-light .cell {
-  display: flex;
   justify-content: center;
 
 }
