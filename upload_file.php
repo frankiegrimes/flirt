@@ -5,6 +5,39 @@ $extension = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
 $file_path = "confirm.php";
 $content = file_get_contents($file_path);
 
+$name = $_POST["name"];
+$email = $_POST["email"];
+$description = $_POST["description"];
+
+$db_server = "rdbms.strato.de";
+$db_user = "U3086321";
+$db_password = "fl1rtestdumitmir";
+$db_name = "DB3086321";
+
+$link = mysqli_connect($db_server, $db_user, $db_password);
+
+if(!$link)
+{
+    echo "Error: Unable to connect to MySQL." . PHP_EOL;
+    echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
+    echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
+    exit;
+}
+
+$name = mysqli_real_escape_string($link, $_REQUEST['name']);
+$email = mysqli_real_escape_string($link, $_REQUEST['email']);
+$description = mysqli_real_escape_string($link, $_REQUEST['description']);
+
+$sql =  "INSERT INTO '$db_name' (name, email, description) VALUES ('$name', '$email', '$description')";
+
+
+if(mysqli_query($link, $sql)){
+    echo "Records inserted successfully.";
+} else{
+    echo "ERROR: Could not able to execute $sql. " . mysqli_error($link);
+}
+
+mysqli_close($link);
 
 if ((($_FILES["file"]["type"] == "video/mp4")
 || ($_FILES["file"]["type"] == "video/quicktime")
@@ -28,6 +61,9 @@ if ((($_FILES["file"]["type"] == "video/mp4")
     if (file_exists("upload/" . $_FILES["file"]["name"]))
       {
       echo $_FILES["file"]["name"] . " already exists. ";
+        echo $_POST["name"];
+  echo $_POST["email"];
+  echo $_POST["description"];
       }
     else
       {
@@ -41,7 +77,5 @@ if ((($_FILES["file"]["type"] == "video/mp4")
 else
   {
   echo "Invalid file";
-  echo $_FILES["file"]["type"];
-  echo $extension;
   }
 ?>
