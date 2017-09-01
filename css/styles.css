@@ -264,8 +264,14 @@ p {
 
 /* -----------------------------------------------------------------------*	INFO VIDEO
 \* -----------------------------------------------------------------------*/
-#info-vid {
-  z-index: -1; }
+#pause-btn img, #play-btn img {
+  height: 20%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  padding-right: 5rem; }
 
 #replay-btn img {
   height: 20%;
@@ -349,6 +355,9 @@ p {
   -webkit-transition: all 0.2s ease-in-out 0s;
   transition: all 0.2s ease-in-out 0s; }
 
+#choosefile-label {
+  visibility: hidden; }
+
 textarea {
   min-height: 15rem; }
 
@@ -405,7 +414,11 @@ textarea {
     border: solid white 2px;
     margin: 0 auto;
     max-width: 20rem;
-    margin-bottom: 3rem; } }
+    margin-bottom: 3rem; }
+  #choosefile {
+    display: none; }
+  #choosefile-label {
+    visibility: visible; } }
 
 /* -----------------------------------------------------------------------*  TEAM PAGE
 \* -----------------------------------------------------------------------*/
@@ -501,10 +514,7 @@ footer p {
   padding-bottom: 1rem; }
 
 .footer-light p {
-  font-size: 0.7rem; }
-
-.footer-light img {
-  max-height: 3rem; }
+  font-size: 1rem; }
 
 .footer-menu {
   background-color: #313131;
@@ -512,7 +522,7 @@ footer p {
 
 .footer-menu a {
   color: #fff;
-  font-size: 0.7rem; }
+  font-size: 1rem; }
 
 .footer-menu a:hover {
   color: #d5d5d5; }
@@ -520,3 +530,7 @@ footer p {
 .footer-menu ul {
   line-height: 0.5rem;
   text-align: center; }
+
+@media only screen and (max-width: 800px) {
+  .footer-light img {
+    padding: 2rem 0rem; } }

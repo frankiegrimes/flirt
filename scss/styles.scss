@@ -397,10 +397,21 @@ text-indent: 2rem;
 \* -----------------------------------------------------------------------*/
 
 
+.vid-controls {
 
-#info-vid {
-	z-index: -1;
 }
+
+#pause-btn img, #play-btn img {
+height: 20%;
+  position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+        padding-right: 5rem; 
+
+}
+
+
 
 #replay-btn {
 
@@ -511,6 +522,10 @@ video {
   
 }
 
+#choosefile-label {
+    visibility: hidden;
+  }
+
 
 
 textarea {
@@ -606,6 +621,15 @@ textarea {
   .video-btn h2 {
    
 
+  }
+
+
+  #choosefile {
+    display: none;
+  }
+
+  #choosefile-label {
+    visibility: visible;
   }
 
 }
@@ -754,13 +778,12 @@ footer p {
 }
 
 .footer-light p {
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 
 
 .footer-light img {
-  max-height: 3rem;
 
 }
 
@@ -773,7 +796,7 @@ footer p {
 
 .footer-menu a {
     color: #fff;
-    font-size: 0.7rem;
+    font-size: 1rem;
 
 }
 
@@ -787,3 +810,12 @@ footer p {
   line-height: 0.5rem;
   text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
+
+  .footer-light img {
+padding: 2rem 0rem;
+
+}
+
+  }

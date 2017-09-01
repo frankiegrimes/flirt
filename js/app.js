@@ -8,18 +8,24 @@ $("#replay-btn").hide();
 $("#webcam").hide();
 // Anchor Link Scroll
 var infovid = $('#info-vid');
+var playbtn = $("#play-btn");
+
 
 $("#down-btn").click(function(){
+
     $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top
     }, 500);
+       infovid.get(0).play();
+    playbtn.hide();
     return false;
+ 
     
 });
 
-$("#down-btn").click(function(){
-	infovid.get(0).play();
-});
+
+
+
 
 $(".take-video").click(function(){
 	$(".callout").show();
@@ -32,6 +38,8 @@ $("#upload").click(function(){
 	$(".video-container").hide();
 });
 
+    if(!isMobile) {
+
 infovid.on('ended',function(){
       $("#replay-btn").show();
     });
@@ -40,6 +48,14 @@ $("#replay-btn").click(function(){
 	$("#replay-btn").hide();
 	infovid.get(0).play();
 });
+
+
+playbtn.click(function(){
+    infovid.get(0).play();
+    playbtn.hide();
+});
+
+}
 
 // Animate Gif function
 
@@ -146,9 +162,24 @@ $(function() {
     });
 
 
+
+
+var button = document.getElementById('choosefile-label');
+var input  = document.getElementById('choosefile');
+
+
+
+button.addEventListener('click', function (e) {
+    e.preventDefault();
+    
+    input.click();
+});
+
+input.addEventListener('change', function () {
+   button.innerText = this.value; 
+});
+
 // Record Video Function
-
-
  
 $('.take-video').click(function(){
 

@@ -63,17 +63,23 @@
       <!--- INFORMATION VIDEO  -->
       <section id="info-video">
             <div class="responsive-embed widescreen">
-                    <video preload id="info-vid" controls src="assets/video/info-video.mov" muted>
-                      <source src="" type="">
+                    <video id="info-vid" controls src="assets/video/info-video.mp4" muted>
+                      
                     </video>
-                    <div class="grid-x">
-                      <div class="small-4 cell"></div>
-                      <div class="small-4 cell">
+                    <div class="grid-x vid-controls">
+               
+                      <div class="small-12 cell">
                         <a id="replay-btn">
                           <img src="assets/img/replay.png">
                         </a>
+
                       </div>
-                    <div class="small-4 cell"></div>
+                    
+                    <div class="small-12 cell">
+                      <a id="play-btn">
+                          <img src="assets/img/play.png">
+                        </a>
+                    </div>
                   </div>
          
            </div>
@@ -114,7 +120,8 @@
             
                 
                 <br>
-                <input type="file" name="file" accept="video/*" capture>         
+                <label for="choosefile" id="choosefile-label" class="button">Take Video</label>
+                <input type="file" id="choosefile" name="file" accept="video/*" capture">         
        
               </div>
             </div>
@@ -163,35 +170,36 @@
   <footer>
     <div class="footer-light">
       <div class="grix-x grid-padding-x">
-        <div class="small-12 small-offset-2 cell">
-           <p>Gefördert von:</p>
+        <div class="small-12 cell">
+           <p class="text-center">Gefördert von:</p>
        </div>
      </div>
      
       <div class="grid-x grid-padding-x footer-logos">
-        <div class="small-2 small-offset-2 cell">
+
+        <div class="small-12 medium-2 medium-offset-1 cell">
    
-        <img src="assets/img/logo1.png">
+        <img src="assets/img/logo-3-01.png">
         
         </div>
-        <div class="small-2 cell">
+        <div class="small-12 medium-2 cell">
           
-            <img src="assets/img/logo2.png">
+            <img src="assets/img/logo-2-01.png">
         
         </div>
-        <div class="small-2 cell">
+        <div class="small-12 medium-2 cell">
           
-          <img src="assets/img/logo3.png">
+          <img src="assets/img/logo-1-01.png">
       
         </div>
-        <div class="small-2 cell">
+        <div class="small-12 medium-2 cell">
           
-          <img src="assets/img/logo4.png">
+          <img src="assets/img/logo-5-01.png">
     
         </div>
-        <div class="small-2 cell">
+        <div class="small-12 medium-2 cell">
        
-        <img src="assets/img/logo5.png">
+        <img src="assets/img/logo-4-01.png">
         
         </div>
 
