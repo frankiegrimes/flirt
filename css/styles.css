@@ -75,6 +75,9 @@ p {
 
 /* -----------------------------------------------------------------------* NAVIGATION
 \* -----------------------------------------------------------------------*/
+.is-drilldown {
+  max-width: 100%; }
+
 .top-bar {
   padding: 1rem;
   text-transform: uppercase; }
@@ -138,10 +141,13 @@ p {
 @media only screen and (max-width: 640px) {
   .top-bar, .top-bar ul {
     font-family: "ProximaNova-Bold";
-    font-size: 2rem;
+    font-size: 1.5rem;
     line-height: 1.3rem;
     background-color: black;
-    z-index: 20; }
+    z-index: 20;
+    padding: 0 0rem; }
+  .top-bar ul {
+    padding: 1rem; }
   .top-bar a {
     color: white;
     position: relative;
@@ -154,7 +160,7 @@ p {
   .top-bar a:before {
     content: "";
     position: absolute;
-    width: 40%;
+    width: 25%;
     height: 2px;
     bottom: 0;
     left: 1.1rem;
@@ -169,6 +175,9 @@ p {
     visibility: visible;
     -webkit-transform: scaleX(1);
             transform: scaleX(1); } }
+
+.orange-under a:before {
+  background-color: #E94E1B; }
 
 /* -----------------------------------------------------------------------*	LANDING PAGE
 \* -----------------------------------------------------------------------*/
@@ -341,7 +350,7 @@ p {
   transition: all 0.2s ease-in-out 0s; }
 
 textarea {
-  min-height: 100px; }
+  min-height: 15rem; }
 
 @media only screen and (min-width: 1200px) {
   .callout {
@@ -459,6 +468,8 @@ textarea {
 .orange {
   color: #E94E1B; }
 
+/* -----------------------------------------------------------------------*  WACH PAGE
+\* -----------------------------------------------------------------------*/
 /* -----------------------------------------------------------------------*  FOOTER
 \* -----------------------------------------------------------------------*/
 footer {
@@ -467,23 +478,33 @@ footer {
 footer p {
   color: white;
   font-family: 'ProximaNova-Light';
+  font-size: 0.5rem; }
+
+.fft {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.footer-dark p {
+  padding-top: 2rem;
   text-align: center;
-  font-size: 0.5rem;
-  padding-top: 3rem;
   padding-bottom: 2rem; }
 
 .footer-light {
   background-color: #474747;
   padding: 1rem; }
 
-.footer-light .cell {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center; }
+.footer-logos {
+  padding-bottom: 1rem; }
+
+.footer-light p {
+  font-size: 0.7rem; }
 
 .footer-light img {
-  max-height: 3rem;
-  padding: 0 0rem; }
+  max-height: 3rem; }
 
 .footer-menu {
   background-color: #313131;

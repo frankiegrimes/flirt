@@ -21,157 +21,155 @@
 
   <nav class="top-bar" id="example-menu">
 
-    <div class="top-bar-left">
-      
+    <div class="top-bar-left hide-for-small-only">
+      <a href="index.html"><span class="logo">FLIRT</span></a>
     </div>
 
     <div class="top-bar-right">
       <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
         <li><a href="team.html">Das Team</a></li>
-        <li><a href="stuck.html">Das Stuck</a></li>
+        <li><a href="stuck.html">Das Stück</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="wach.html">Wach?</a></li>
       </ul>
     </div>
   </nav>
    
    <!--- LANDING PAGE  -->
 
-  <div class="eyes-video">
-    <video autoplay loop muted poster="/assets/img/poster.png" id="video_bg">
-      <!--<source src="/assets/video/eyes.webm" type="video/webm">-->
-      <source src="/assets/video/eyes.mp4" type="video/mp4">
-    </video>
-    <div class="videohue"></div>
+  <section class="eyes-video">
+      <video autoplay preload loop muted poster="assets/img/poster.png" id="video_bg">
+        <source src="assets/video/eyes.webm" type="video/webm">
+        <source src="assets/video/eyes.mp4" type="video/mp4">
+      </video>
+      <div class="videohue"></div>
 
-    <div class="grid-x grid-padding-x">
-      <div class="small-6 cell"></div>
-      <div class="small-6 cell">
-        <h1>FLIRT</h1>
+      <div class="grid-x">
+        <div class="cell">
+          <h1 class="text-center">FLIRT</h1>
+        </div>
       </div>
-    </div>
 
-    <div class="grid-x grid-padding-x">
-
-    <div class="small-6 cell"></div>
-    <div class="small-6 cell" >
-      <a href="#info-video" rel="" id="down-btn">
-        <img src="assets/img/down.png">
-      </a>
-    </div>
-
-                
-                </div>
+     <div class="grid-x align-center align-middle">
+        <div class="small-12 cell">
+          <a href="#info-video" rel="" id="down-btn">
+            <img src="assets/img/down.png">
+          </a>
+        </div>
+      </div>
        
-
-  </div>
+  </section>
 
       <!--- INFORMATION VIDEO  -->
-      <div id="info-video">
+      <section id="info-video">
             <div class="responsive-embed widescreen">
-                    <video id="info-vid" src="assets/video/info-video.mov" muted poster="">
+                    <video preload id="info-vid" controls src="assets/video/info-video.mov" muted>
                       <source src="" type="">
                     </video>
-                    <div class="grid-x grid-padding-x">
+                    <div class="grid-x">
+                      <div class="small-4 cell"></div>
+                      <div class="small-4 cell">
+                        <a id="replay-btn">
+                          <img src="assets/img/replay.png">
+                        </a>
+                      </div>
                     <div class="small-4 cell"></div>
-                    <div class="small-4 cell">
-                      <a id="replay-btn">
-                        <img src="assets/img/replay.png">
-                      </a>
-                  </div>
-                  <div class="small-4 cell"></div>
                   </div>
          
            </div>
-         </div>
+         </section>
 
     <!--- WEBCAM SECTION  -->
 
     <section class="upload-section">
-      <div class="grid-container">
-        <div class="grid-x align-center">
-            
-                
-         
-             
-            <h1>Thank you for your upload!><h1>
-                
-            </div>
-           
-               
-            </div>
-            </div>
-            </div>
-  
-      <div class="callout">
-            <div class="grid-x grid-padding-x align-center">
-              <div class="large-6 medium-6 small-6 cell">
 
+             <div class="grix-x grid-padding-x">
+                <div class="small-12 cell">
+                    <h2 class="text-center">Thank you for your upload!</h2>
+                  </div>
+              </div>
 
-              <!-- VIDEO UPLOAD FORM -->
-                
-
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 </section>
   <!--- FOOTER -->
 
   <footer>
     <div class="footer-light">
-      <div class="grid-x grid-padding-x align-center">
-      <div class="small-2 cell"></div>
-        <div class="small-2 cell">
-        <a href="">
+      <div class="grix-x grid-padding-x">
+        <div class="small-12 small-offset-2 cell">
+           <p>Gefördert von:</p>
+       </div>
+     </div>
+     
+      <div class="grid-x grid-padding-x footer-logos">
+        <div class="small-2 small-offset-2 cell">
+   
         <img src="assets/img/logo1.png">
-        </a>
+        
         </div>
         <div class="small-2 cell">
-          <a href="http://www.facebook.com/simsimmadublin" target="_blank">
+          
             <img src="assets/img/logo2.png">
-          </a>
+        
         </div>
         <div class="small-2 cell">
-          <a href="http://www.twitter.com/simsimmadublin">
+          
           <img src="assets/img/logo3.png">
-          </a>
+      
         </div>
         <div class="small-2 cell">
-          <a href="http://www.instagram.com/simsimmadublin">
+          
           <img src="assets/img/logo4.png">
-          </a>
+    
         </div>
         <div class="small-2 cell">
-        <a href="">
+       
         <img src="assets/img/logo5.png">
-        </a>
+        
         </div>
+
       </div>
+
+     
+      <div class="grix-x grid-padding-x">
+        <div class="small-12">
+           <p class="text-center">In Koproduktion mit:</p>
+       </div>
+     </div>
+     <div class="grix-x grid-padding-x align-center">
+     <div class="small-12 cell fft">
+          
+            <img src="assets/img/fft.png">
+        
+        </div>
     </div>
-    
-    <div class="footer-menu hide-for-medium">
+    </div>
+    <div class="footer-menu">
       <div class="grid-x">
         <div class="cell">
-        <ul class="vertical menu">
-           <li><a href="team.html">Das Team</a></li>
-            <li><a href="stuck.html">Das Stuck</a></li>
+        <ul class="small-vertical medium-horizontal menu align-center">
+          <li><a href="team.html">Das Team</a></li>
+          <li><a href="stuck.html">Das Stück</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+          <li><a href="wach.html">Wach?</a></li>
         </div>
       </div>
     </div>
-
-    <div class="grid-x">
-      <div class="small-6 cell">
-        <p>Site by Frankie Grimes</p>
+    <div class="footer-dark">
+      <div class="grid-x">
+        <div class="small-6 cell">
+          <p>Site by Frankie Grimes</p>
+        </div>
+        <div class="small-6 cell">
+          <p>©Flirt Performace 2017</p>
+        </div>
       </div>
-      <div class="small-6 cell">
-        <p>©Flirt Performace 2017</p>
       </div>
-    </div>
   </footer>
 
   <script src="bower_components/jquery/dist/jquery.js"></script>
   <script src="bower_components/what-input/dist/what-input.js"></script>
   <script src="bower_components/foundation-sites/dist/js/foundation.js"></script>
   <script src="js/min/app-min.js"></script>
+
 </body>
 </html>

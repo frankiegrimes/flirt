@@ -1,6 +1,6 @@
 <?php
 
-$allowedExts = array("MOV", "wmv", "m4v", "avi", "mp4");
+$allowedExts = array("MOV", "mov" "wmv", "m4v", "avi", "mp4", "3gp", "flv");
 $extension = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
 $file_path = "confirm.php";
 $content = file_get_contents($file_path);
@@ -45,8 +45,11 @@ mysqli_close($link);
 if ((($_FILES["file"]["type"] == "video/mp4")
 || ($_FILES["file"]["type"] == "video/quicktime")
 || ($_FILES["file"]["type"] == "video/mov")
-|| ($_FILES["file"]["type"] == "video/wmv")
+|| ($_FILES["file"]["type"] == "video/3gpp")
+|| ($_FILES["file"]["type"] == "video/MOV")
+|| ($_FILES["file"]["type"] == "video/x-ms-wmv")
 || ($_FILES["file"]["type"] == "video/avi")
+|| ($_FILES["file"]["type"] == "video/flv")
 || ($_FILES["file"]["type"] == "video/m4v"))
 
 && ($_FILES["file"]["size"] < 500000000)

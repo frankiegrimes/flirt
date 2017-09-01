@@ -22,6 +22,5 @@
   },
   "_source": "https://github.com/components/modernizr.git",
   "_target": "^3.5.0",
-  "_originalSource": "components-modernizr",
-  "_direct": true
+  "_originalSource": "components-modernizr"
 }

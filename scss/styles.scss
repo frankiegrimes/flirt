@@ -134,6 +134,9 @@ text-indent: 2rem;
  NAVIGATION
 \* -----------------------------------------------------------------------*/
 
+.is-drilldown {
+  max-width: 100%;
+}
 
 
 .top-bar {
@@ -208,13 +211,17 @@ text-indent: 2rem;
 
    .top-bar, .top-bar ul {
   font-family: "ProximaNova-Bold";
-  font-size: 2rem;
+  font-size: 1.5rem;
   line-height: 1.3rem;
   background-color: black;
   z-index: 20;
+  padding: 0 0rem;
 
 }
 
+.top-bar ul {
+  padding: 1rem;
+}
 
 
 
@@ -236,7 +243,7 @@ text-indent: 2rem;
 .top-bar a:before {
   content: "";
   position: absolute;
-  width: 40%;
+  width: 25%;
   height: 2px;
   bottom: 0;
   left: 1.1rem;
@@ -254,6 +261,9 @@ text-indent: 2rem;
 
 }
 
+.orange-under a:before {
+  background-color: $orange;
+}
 /* -----------------------------------------------------------------------*\
 	LANDING PAGE
 \* -----------------------------------------------------------------------*/
@@ -504,7 +514,7 @@ video {
 
 
 textarea {
-  min-height: 100px;
+  min-height: 15rem;
 }
 
 @media only screen and (min-width: 1200px) {
@@ -694,6 +704,14 @@ textarea {
   color: $orange;
 }
 
+
+/* -----------------------------------------------------------------------*\
+  WACH PAGE
+\* -----------------------------------------------------------------------*/
+
+
+
+
 /* -----------------------------------------------------------------------*\
   FOOTER
 \* -----------------------------------------------------------------------*/
@@ -706,11 +724,22 @@ footer {
 footer p {
   color: white;
   font-family: 'ProximaNova-Light';
-  text-align: center;
   font-size: 0.5rem;
-  padding-top: 3rem;
-  padding-bottom: 2rem;
 
+}
+
+.fft {
+  display: flex;
+  justify-content: center;
+}
+
+
+.footer-dark p {
+
+
+    padding-top: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
 }
 
 .footer-light {
@@ -720,14 +749,19 @@ footer p {
  
 }
 
-.footer-light .cell {
-  justify-content: center;
-
+.footer-logos {
+  padding-bottom: 1rem;
 }
+
+.footer-light p {
+  font-size: 0.7rem;
+}
+
+
 
 .footer-light img {
   max-height: 3rem;
-  padding: 0 0rem;
+
 }
 
 .footer-menu {
