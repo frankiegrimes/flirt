@@ -313,16 +313,6 @@
 		"oF": 0,
 		"opt": 0
 		},
-	"\/assets\/icons\/upload.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/assets\/icons\/upload.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/assets\/img\/camera.png": {
 		"ft": 32768,
 		"iS": 12862,
@@ -363,17 +353,6 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/img\/fft-01.png": {
-		"ft": 32768,
-		"iS": 3410,
-		"oA": 0,
-		"oAP": "\/assets\/img\/fft-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/fft.png": {
@@ -446,127 +425,6 @@
 		"iS": 23472,
 		"oA": 0,
 		"oAP": "\/assets\/img\/logo-5-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/logo1-01.png": {
-		"ft": 32768,
-		"iS": 27060,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo1-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/logo1.png": {
-		"ft": 32768,
-		"iS": 31102,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo1.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/logo2-01.png": {
-		"ft": 32768,
-		"iS": 35577,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo2-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/logo2.png": {
-		"ft": 32768,
-		"iS": 4841,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo2.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/logo3-01.png": {
-		"ft": 32768,
-		"iS": 44933,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo3-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/logo3.png": {
-		"ft": 32768,
-		"iS": 95063,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo3.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/logo4-01.png": {
-		"ft": 32768,
-		"iS": 54417,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo4-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/logo4.png": {
-		"ft": 32768,
-		"iS": 95546,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo4.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/logo5-01.png": {
-		"ft": 32768,
-		"iS": 38138,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo5-01.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/logo5.png": {
-		"ft": 32768,
-		"iS": 42191,
-		"oA": 0,
-		"oAP": "\/assets\/img\/logo5.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/img\/pause.png": {
-		"ft": 32768,
-		"iS": 19783,
-		"oA": 0,
-		"oAP": "\/assets\/img\/pause.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -690,12 +548,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/eyes.mp4",
-		"oF": 0
-		},
-	"\/assets\/video\/eyes.webm": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/video\/eyes.webm",
 		"oF": 0
 		},
 	"\/assets\/video\/info-video.mp4": {
@@ -5946,12 +5798,6 @@
 		"oAP": "\/css\/styles-min.css",
 		"oF": 0,
 		"oS": 3
-		},
-	"\/form.php": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/form.php",
-		"oF": 0
 		},
 	"\/index.html": {
 		"ft": 8192,
