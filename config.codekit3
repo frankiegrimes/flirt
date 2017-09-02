@@ -5865,6 +5865,12 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/placeholder.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/placeholder.html",
+		"oF": 0
+		},
 	"\/scss\/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
