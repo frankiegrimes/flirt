@@ -562,6 +562,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/pause.png": {
+		"ft": 32768,
+		"iS": 19783,
+		"oA": 0,
+		"oAP": "\/assets\/img\/pause.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/pavel.jpg": {
 		"ft": 16384,
 		"iS": 207955,
@@ -580,6 +591,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/play.png": {
+		"ft": 32768,
+		"iS": 15960,
+		"oA": 0,
+		"oAP": "\/assets\/img\/play.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/img\/poster.png": {
@@ -680,6 +702,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/info-video.mp4",
+		"oF": 0
+		},
+	"\/beispiele.html": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/beispiele.html",
 		"oF": 0
 		},
 	"\/bower.json": {

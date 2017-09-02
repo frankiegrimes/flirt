@@ -401,7 +401,7 @@ text-indent: 2rem;
 
 }
 
-#pause-btn img, #play-btn img {
+#play-btn img {
 height: 20%;
   position: absolute;
     left: 50%;
@@ -410,6 +410,7 @@ height: 20%;
         padding-right: 5rem; 
 
 }
+
 
 
 
@@ -426,6 +427,10 @@ height: 20%;
   
 	}
 
+}
+
+#play-btn img:hover, #replay-btn img:hover {
+     filter: brightness(85%);
 }
 
 @media only screen and (max-width: 800px) {
@@ -638,9 +643,8 @@ textarea {
   TEAM PAGE
 \* -----------------------------------------------------------------------*/
 
-.team, .piece {
-  min-height: 100vh;
-  margin-top: -5rem;
+.team, .piece, .wach, .kontakt {
+  margin-top: -10rem;
 
   h1 {
     margin-top: 10rem;
@@ -652,8 +656,8 @@ textarea {
   h2 {
     margin-top: -6rem;
     font-size: 4.3rem;
-     letter-spacing: 3rem;
-    text-indent: 3rem;
+     letter-spacing: 2rem;
+    text-indent: 2rem;
 
   }
 
@@ -688,15 +692,76 @@ textarea {
   padding: 5rem;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 1000px) {
 
   .team h1 {
+        font-size: 6rem;
+    letter-spacing: 3rem;
+    text-indent: 3rem;
+
+
+  }
+
+    .team h2 {
+    font-size: 2rem;
+     letter-spacing: 2.5rem;
+    text-indent: 2.5rem;
+    margin-top: -4rem;
+
+  }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+
+  .team h1 {
+    font-size: 4rem;
+    letter-spacing: 2rem;
+    text-indent: 2rem;
+    padding-top: 2rem;
+
+
+  }
+
+    .team h2 {
+    font-size: 2rem;
+     letter-spacing: 1.5rem;
+    text-indent: 1.5rem;
+    margin-top: -4rem;
+
+  }
+
+  }
+
+@media only screen and (max-width: 850px) {
+
+  .piece h1, .kontakt h1 {
     font-size: 5rem;
     letter-spacing: 3rem;
     text-indent: 3rem;
+    padding-top: 2rem;
   }
 
-  .team h2 {
+  .piece h2, .kontakt h2 {
+    font-size: 3rem;
+     letter-spacing: 1.5rem;
+    text-indent: 1.5rem;
+    margin-top: -4rem;
+
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  .wach h1 {
+    font-size: 5rem;
+    letter-spacing: 3rem;
+    text-indent: 3rem;
+    padding-top: 2rem;
+  }
+
+   .wach h2 {
     font-size: 2rem;
      letter-spacing: 2.5rem;
     text-indent: 2.5rem;
@@ -708,19 +773,21 @@ textarea {
 
 @media only screen and (max-width: 600px) {
 
-  .team h1 {
+   .wach h1, .stuck h1, .kontakt h1 {
     font-size: 2rem;
     letter-spacing: 2rem;
     text-indent: 2rem;
   }
 
-  .team h2 {
+    .wach h2, .stuck h2, .kontakt h2 {
     font-size: 1rem;
      letter-spacing: 1.3rem;
     text-indent: 1.3rem;
     margin-top: -1rem;
 
   }
+
+
 
 }
 
@@ -733,8 +800,51 @@ textarea {
   WACH PAGE
 \* -----------------------------------------------------------------------*/
 
+.youtube-embed {
+padding-bottom: 5rem;
+}
+
+.piece .youtube-embed {
+  padding-top: 4rem;
+}
 
 
+/* -----------------------------------------------------------------------*\
+  kontakt
+\* -----------------------------------------------------------------------*/
+
+.kontakt {
+  padding-bottom: 20rem;
+}
+
+.kontakt h3 {
+  padding-top: 5rem;
+}
+
+/* -----------------------------------------------------------------------*\
+  Beispele
+\* -----------------------------------------------------------------------*/
+
+.video-slider {
+  padding: 5rem 10rem;
+}
+
+.beispiele h1 {
+  padding: 0rem;
+  padding-top: 3rem;
+  margin: 0;
+}
+
+.beispiele h2 {
+  padding: 0rem;
+  margin: 0;
+}
+
+@media only screen and (max-width: 850px) {
+  .video-slider {
+  padding: 0;
+}
+  }
 
 /* -----------------------------------------------------------------------*\
   FOOTER

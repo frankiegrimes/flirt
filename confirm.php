@@ -94,55 +94,56 @@
 
   <footer>
     <div class="footer-light">
-      <div class="grix-x grid-padding-x">
-        <div class="small-12 small-offset-2 cell">
-           <p>Gefördert von:</p>
-       </div>
-     </div>
-     
-      <div class="grid-x grid-padding-x footer-logos">
-        <div class="small-2 small-offset-2 cell">
-   
-        <img src="assets/img/logo1.png">
-        
-        </div>
-        <div class="small-2 cell">
-          
-            <img src="assets/img/logo2.png">
-        
-        </div>
-        <div class="small-2 cell">
-          
-          <img src="assets/img/logo3.png">
-      
-        </div>
-        <div class="small-2 cell">
-          
-          <img src="assets/img/logo4.png">
-    
-        </div>
-        <div class="small-2 cell">
+          <div class="grix-x grid-padding-x">
+            <div class="small-12 cell">
+               <p class="text-center">Gefördert von:</p>
+           </div>
+         </div>
+         
+          <div class="grid-x grid-padding-x footer-logos">
+
+            <div class="small-12 medium-2 medium-offset-1 cell">
        
-        <img src="assets/img/logo5.png">
-        
-        </div>
-
-      </div>
-
-     
-      <div class="grix-x grid-padding-x">
-        <div class="small-12">
-           <p class="text-center">In Koproduktion mit:</p>
-       </div>
-     </div>
-     <div class="grix-x grid-padding-x align-center">
-     <div class="small-12 cell fft">
+            <img src="assets/img/logo-3-01.png">
+            
+            </div>
+            <div class="small-12 medium-2 cell">
+              
+                <img src="assets/img/logo-2-01.png">
+            
+            </div>
+            <div class="small-12 medium-2 cell">
+              
+              <img src="assets/img/logo-1-01.png">
           
-            <img src="assets/img/fft.png">
+            </div>
+            <div class="small-12 medium-2 cell">
+              
+              <img src="assets/img/logo-5-01.png">
         
+            </div>
+            <div class="small-12 medium-2 cell">
+           
+            <img src="assets/img/logo-4-01.png">
+            
+            </div>
+
+          </div>
+
+         
+          <div class="grix-x grid-padding-x">
+            <div class="small-12">
+               <p class="text-center">In Koproduktion mit:</p>
+           </div>
+         </div>
+         <div class="grix-x grid-padding-x align-center">
+         <div class="small-12 cell fft">
+              
+                <img src="assets/img/fft.png">
+            
+            </div>
         </div>
-    </div>
-    </div>
+        </div>
     <div class="footer-menu">
       <div class="grid-x">
         <div class="cell">

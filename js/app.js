@@ -9,6 +9,9 @@ $("#webcam").hide();
 // Anchor Link Scroll
 var infovid = $('#info-vid');
 var playbtn = $("#play-btn");
+var confirmed = $('.confirmed');
+
+confirmed.hide();
 
 
 $("#down-btn").click(function(){
@@ -177,9 +180,10 @@ button.addEventListener('click', function (e) {
 
 input.addEventListener('change', function () {
    button.innerText = this.value; 
+   confirmed.show();
 });
 
-// Record Video Function
+/* Record Video Function
  
 $('.take-video').click(function(){
 
@@ -194,7 +198,7 @@ $('.take-video').click(function(){
 		  var video = document.querySelector('#webcam');
 		  
 		  video.srcObject = mediaStream;
-		  video.onloadedmetadata = function(/*e*/) {
+		  video.onloadedmetadata = function(/*e) {
 
 		  	$("#webcam").show();
 		    video.play();
@@ -209,7 +213,7 @@ $('.take-video').click(function(){
 
 
 
-
+*/
 
 });
 
