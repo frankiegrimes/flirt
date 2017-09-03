@@ -325,7 +325,7 @@ text-indent: 2rem;
     z-index: -1;
 }
 
-#down-btn {
+#down-btn, .back-btn {
     display: flex;
   justify-content: center;
   align-items: center;
@@ -446,6 +446,12 @@ height: 20%;
 /* -----------------------------------------------------------------------*\
 	FORM
 \* -----------------------------------------------------------------------*/
+
+.back-btn img {
+  max-height: 3rem;
+  margin: 2rem;
+}
+
 
 .desktop-video {
   display: flex;

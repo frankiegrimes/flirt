@@ -31,6 +31,7 @@
         <li><a href="stuck.html">Das Stück</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
         <li><a href="wach.html">Wach?</a></li>
+        <li><a href="beispiele.html">Bespiele</a></li>
       </ul>
     </div>
   </nav>
@@ -63,36 +64,46 @@
       <!--- INFORMATION VIDEO  -->
       <section id="info-video">
             <div class="responsive-embed widescreen">
-                    <video preload id="info-vid" controls src="assets/video/info-video.mp4" muted>
-                      <source src="" type="">
+                    <video id="info-vid" controls src="assets/video/info-video.mp4" muted>
+                      
                     </video>
-                    <div class="grid-x">
-                      <div class="small-4 cell"></div>
-                      <div class="small-4 cell">
+                    <div class="grid-x vid-controls">
+               
+                      <div class="small-12 cell">
                         <a id="replay-btn">
                           <img src="assets/img/replay.png">
                         </a>
+
                       </div>
-                    <div class="small-4 cell"></div>
+                    
+                    <div class="small-12 cell">
+                      <a id="play-btn">
+                          <img src="assets/img/play.png">
+                        </a>
+                    </div>
                   </div>
          
            </div>
          </section>
 
     <!--- WEBCAM SECTION  -->
-<section class="upload-section">
+
+    <section class="upload-section">
 
              
   
       <div class="callout" style="display: block;">
             <div class="grix-x grid-padding-x">
                <div class="small-12 cell">
-                   <h3 class="text-center">Thank you for your upload!</h3>
+                   <h3 class="text-center">Error. Please try again.</h3>
                  </div>
-                  
+                  <div class="small-12 cell align-center back-btn">
+                   <a href="index.html#upload-form">
+                     <img src="assets/img/back.png">
+                   </a>
+                 </div>
              </div>
 
-          </div>
           </div>
 
 </section>
@@ -100,56 +111,56 @@
 
   <footer>
     <div class="footer-light">
-          <div class="grix-x grid-padding-x">
-            <div class="small-12 cell">
-               <p class="text-center">Gefördert von:</p>
-           </div>
-         </div>
-         
-          <div class="grid-x grid-padding-x footer-logos">
+      <div class="grix-x grid-padding-x">
+        <div class="small-12 cell">
+           <p class="text-center">Gefördert von:</p>
+       </div>
+     </div>
+     
+      <div class="grid-x grid-padding-x footer-logos">
 
-            <div class="small-12 medium-2 medium-offset-1 cell">
-       
-            <img src="assets/img/logo-3-01.png">
-            
-            </div>
-            <div class="small-12 medium-2 cell">
-              
-                <img src="assets/img/logo-2-01.png">
-            
-            </div>
-            <div class="small-12 medium-2 cell">
-              
-              <img src="assets/img/logo-1-01.png">
-          
-            </div>
-            <div class="small-12 medium-2 cell">
-              
-              <img src="assets/img/logo-5-01.png">
+        <div class="small-12 medium-2 medium-offset-1 cell">
+   
+        <img src="assets/img/logo-3-01.png">
         
-            </div>
-            <div class="small-12 medium-2 cell">
-           
-            <img src="assets/img/logo-4-01.png">
-            
-            </div>
-
-          </div>
-
-         
-          <div class="grix-x grid-padding-x">
-            <div class="small-12">
-               <p class="text-center">In Koproduktion mit:</p>
-           </div>
-         </div>
-         <div class="grix-x grid-padding-x align-center">
-         <div class="small-12 cell fft">
-              
-                <img src="assets/img/fft.png">
-            
-            </div>
         </div>
+        <div class="small-12 medium-2 cell">
+          
+            <img src="assets/img/logo-2-01.png">
+        
         </div>
+        <div class="small-12 medium-2 cell">
+          
+          <img src="assets/img/logo-1-01.png">
+      
+        </div>
+        <div class="small-12 medium-2 cell">
+          
+          <img src="assets/img/logo-5-01.png">
+    
+        </div>
+        <div class="small-12 medium-2 cell">
+       
+        <img src="assets/img/logo-4-01.png">
+        
+        </div>
+
+      </div>
+
+     
+      <div class="grix-x grid-padding-x">
+        <div class="small-12">
+           <p class="text-center">In Koproduktion mit:</p>
+       </div>
+     </div>
+     <div class="grix-x grid-padding-x align-center">
+     <div class="small-12 cell fft">
+          
+            <img src="assets/img/fft.png">
+        
+        </div>
+    </div>
+    </div>
     <div class="footer-menu">
       <div class="grid-x">
         <div class="cell">

@@ -4,6 +4,9 @@ $allowedExts = array("MOV", "mov" "wmv", "m4v", "avi", "mp4", "3gp", "flv");
 $extension = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
 $file_path = "confirm.php";
 $content = file_get_contents($file_path);
+$errorcontent = file_get_contents("invalid.php");
+$error = file_get_contents("error.php");
+$duplicatecontent = file_get_contents("duplicate.php");
 
 
 
@@ -19,9 +22,7 @@ $link = mysqli_connect($db_server, $db_user, $db_password, $db_name);
 
 if(!$link)
 {
-    echo "Error: Unable to connect to MySQL." . PHP_EOL;
-    echo "Debugging errno: " . mysqli_connect_errno() . PHP_EOL;
-    echo "Debugging error: " . mysqli_connect_error() . PHP_EOL;
+    echo $error;
     exit;
 }
 
@@ -34,10 +35,9 @@ $sql =  "INSERT INTO $table_name (name, email, description, videotitle) VALUES (
 
 
 if(mysqli_query($link, $sql)){
-    echo "Records inserted successfully.";
+    
 } else{
-    echo "ERROR: Could not execute $sql. " . mysqli_error($link);
-    echo $filename;
+     echo $error;
 }
 
 mysqli_close($link);
@@ -58,7 +58,7 @@ if ((($_FILES["file"]["type"] == "video/mp4")
   {
   if ($_FILES["file"]["error"] > 0)
     {
-    echo "Return Code: " . $_FILES["file"]["error"] . "<br />";
+    echo $error;
     }
   else
     {
@@ -66,10 +66,7 @@ if ((($_FILES["file"]["type"] == "video/mp4")
 
     if (file_exists("upload/" . $_FILES["file"]["name"]))
       {
-      echo $_FILES["file"]["name"] . " already exists. ";
-        echo $_POST["name"];
-  echo $_POST["email"];
-  echo $_POST["description"];
+       echo $duplicatecontent;
       }
     else
       {
@@ -82,6 +79,6 @@ if ((($_FILES["file"]["type"] == "video/mp4")
   }
 else
   {
-  echo "Invalid file";
+  echo $errorcontent;
   }
 ?>

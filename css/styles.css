@@ -222,7 +222,7 @@ p {
   mix-blend-mode: multiply;
   z-index: -1; }
 
-#down-btn {
+#down-btn, .back-btn {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -291,6 +291,10 @@ p {
 
 /* -----------------------------------------------------------------------*	FORM
 \* -----------------------------------------------------------------------*/
+.back-btn img {
+  max-height: 3rem;
+  margin: 2rem; }
+
 .desktop-video {
   display: -webkit-box;
   display: -ms-flexbox;

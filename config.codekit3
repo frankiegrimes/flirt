@@ -313,6 +313,17 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/back.png": {
+		"ft": 32768,
+		"iS": 2893,
+		"oA": 0,
+		"oAP": "\/assets\/img\/back.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
 	"\/assets\/img\/camera.png": {
 		"ft": 32768,
 		"iS": 12862,
@@ -5799,10 +5810,28 @@
 		"oF": 0,
 		"oS": 3
 		},
+	"\/duplicate.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/duplicate.php",
+		"oF": 0
+		},
+	"\/error.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/error.php",
+		"oF": 0
+		},
 	"\/index.html": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
+		"oF": 0
+		},
+	"\/invalid.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/invalid.php",
 		"oF": 0
 		},
 	"\/js\/app.js": {
@@ -7345,7 +7374,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "localhost",
+	"externalServerAddress": "http:\/\/dev.flirt-performance.de:8888\/",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
