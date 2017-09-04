@@ -15,6 +15,12 @@
 		"oAP": "\/.bowerrc",
 		"oF": 0
 		},
+	"\/assets\/fonts\/Metropolis-Bold.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/Metropolis-Bold.ttf",
+		"oF": 0
+		},
 	"\/assets\/fonts\/proxima-nova-black.eot": {
 		"ft": 8192,
 		"oA": 2,
@@ -223,6 +229,12 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-thin.woff2",
+		"oF": 0
+		},
+	"\/assets\/fonts\/proximanova-bold-webfont.ttf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/proximanova-bold-webfont.ttf",
 		"oF": 0
 		},
 	"\/assets\/gif\/declan.gif": {
@@ -483,6 +495,18 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/assets\/img\/Press.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/Press.pdf",
+		"oF": 0
+		},
+	"\/assets\/img\/Program.pdf": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/img\/Program.pdf",
+		"oF": 0
 		},
 	"\/assets\/img\/rafael.jpg": {
 		"ft": 16384,
@@ -5951,18 +5975,6 @@
 		"oAP": "\/team.html",
 		"oF": 0
 		},
-	"\/upload\/52587929742__9953470C-5031-4A12-964E-631085282686.MOV": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/upload\/52587929742__9953470C-5031-4A12-964E-631085282686.MOV",
-		"oF": 0
-		},
-	"\/upload\/deray.m4v": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/upload\/deray.m4v",
-		"oF": 0
-		},
 	"\/upload_file.php": {
 		"ft": 8192,
 		"oA": 2,
@@ -7374,7 +7386,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "http:\/\/dev.flirt-performance.de:8888\/",
+	"externalServerAddress": "localhost",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",

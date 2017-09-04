@@ -1,12 +1,15 @@
 <?php
 
-$allowedExts = array("MOV", "mov" "wmv", "m4v", "avi", "mp4", "3gp", "flv");
+$allowedExts = array("MOV", "mov", "wmv", "m4v", "avi", "mp4", "3gp", "flv");
 $extension = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
 $file_path = "confirm.php";
 $content = file_get_contents($file_path);
-$errorcontent = file_get_contents("invalid.php");
-$error = file_get_contents("error.php");
-$duplicatecontent = file_get_contents("duplicate.php");
+$errorfilepath = "invalid.php";
+$errorcontent = file_get_contents($errorfilepath);
+$error2filepath = "error.php";
+$error = file_get_contents($error2filepath);
+$duplicatefilepath = "duplicate.php";
+$duplicatecontent = file_get_contents($duplicatefilepath);
 
 
 
@@ -16,9 +19,19 @@ $db_password = "fl1rtestdumitmir";
 $db_name = "DB3086321";
 $table_name = "flirttable";
 
+/*
+
+$db_server = "localhost";
+$db_user = "root";
+$db_password = "root";
+$db_name = "inventory";
+$table_name = "flirttable";
+$port = "3306";
+
+*/
 
 
-$link = mysqli_connect($db_server, $db_user, $db_password, $db_name);
+$link = mysqli_connect($db_server, $db_user, $db_password, $db_name, $port);
 
 if(!$link)
 {

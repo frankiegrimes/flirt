@@ -159,7 +159,7 @@ $(function() {
                 $(this).attr("src", "assets/gif/xenia.gif");
             },
             function() {
-                $(this).attr("src", "assets/img/xenia  .jpg");
+                $(this).attr("src", "assets/img/xenia.jpg");
             }                         
         );                         
     });

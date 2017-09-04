@@ -19,7 +19,7 @@ $light-orange: #EE964B;
        url('../assets/fonts/proxima-nova-bold.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../assets/fonts/proxima-nova-bold.svg') format('svg'), /* Legacy iOS */
        url('../assets/fonts/proxima-nova-bold.otf') format('otf'); 
-       font-weight: normal;
+        font-weight: normal;
        font-style: normal;
 }
 
@@ -52,6 +52,13 @@ $light-orange: #EE964B;
        url('../assets/fonts/proxima-nova-black.ttf')  format('truetype'), /* Safari, Android, iOS */
        url('../assets/fonts/proxima-nova-black.svg') format('svg'), /* Legacy iOS */
        url('../assets/fonts/proxima-nova-black.otf') format('otf'); 
+       font-weight: normal; 
+       font-style: normal; 
+}
+
+@font-face {
+  font-family: 'Metropolis-Bold';
+  src: url('../assets/fonts/Metropolis-Bold.ttf')  format('truetype'); /* Safari, Android, iOS */
        font-weight: normal; 
        font-style: normal; 
 }
@@ -649,11 +656,16 @@ textarea {
   TEAM PAGE
 \* -----------------------------------------------------------------------*/
 
+.wach h3 {
+  padding: 1rem 0rem;
+}
+
+
 .team, .piece, .wach, .kontakt {
   margin-top: -10rem;
 
   h1 {
-    margin-top: 10rem;
+    margin-top: 12rem;
     font-size: 7rem;
     letter-spacing: 5rem;
     text-indent: 5rem;
@@ -668,11 +680,12 @@ textarea {
   }
 
   h3 {
-    font-family: 'ProximaNova-Bold';
+    font-family: 'Metropolis-Bold';
     font-size: 1.5rem;
   }
 
   h4 {
+    font-family: 'ProximaNova-Light';
     font-size: 1.2rem;
   }
 
@@ -681,21 +694,20 @@ textarea {
 .team .card {
   text-align: center;
   border: none;
-  margin: 1rem;
+  margin: 0.5rem;
 
 }
 
 .team .card-section {
-  min-height: 13rem;
   color: $orange;
 }
 
 .team .card img {
-  border-radius: 10rem;
+  border-radius: 6rem;
 }
 
 .team-grid {
-  padding: 5rem;
+  padding: 2rem;
 }
 
 @media only screen and (max-width: 1000px) {
@@ -714,6 +726,14 @@ textarea {
     text-indent: 2.5rem;
     margin-top: -4rem;
 
+  }
+
+  .team h3 {
+    font-size: 1.2rem;
+  }
+
+  .team h4 {
+    font-size: 1rem;
   }
 
   }
@@ -801,6 +821,21 @@ textarea {
   color: $orange;
 }
 
+@media only screen and (max-width: 700px) {
+
+nav .orange {
+  color: white;
+}
+
+.orange-under a:before {
+  background-color: white;
+}
+
+}
+
+.piece-copy {
+  padding-bottom: 2rem;
+}
 
 /* -----------------------------------------------------------------------*\
   WACH PAGE
@@ -824,6 +859,10 @@ padding-bottom: 5rem;
 }
 
 .kontakt h3 {
+  padding-top: 5rem;
+}
+
+.contact-copy {
   padding-top: 5rem;
 }
 
