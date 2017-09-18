@@ -9,6 +9,7 @@
     <title>Flirt</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   </head>
 
 <body>
@@ -28,10 +29,10 @@
     <div class="top-bar-right">
       <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
         <li><a href="stuck.html">Das Stück</a></li>
-        <li><a href="beispiele.html">Bespiele</a></li>
         <li><a href="team.html">Das Team</a></li>
-        <li><a href="wach.html">Wach?</a></li>
+        <li><a href="beispiele.html">Beispiele</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="wach.html">WACH?</a></li>
       </ul>
     </div>
   </nav>
@@ -67,31 +68,30 @@
                     <video id="info-vid" controls src="assets/video/info-video.mp4" muted>
                       
                     </video>
-                    <div class="grid-x vid-controls">
-               
-                      <div class="small-12 cell">
-                        <a id="replay-btn">
-                          <img src="assets/img/replay.png">
-                        </a>
-
-                      </div>
                     
-                    <div class="small-12 cell">
-                      <a id="play-btn">
-                          <img src="assets/img/play.png">
-                        </a>
-                    </div>
-                  </div>
          
            </div>
+           <div class="vid-text">
+              <div class="callout secondary">
+                <h3>Textversion</h3>
+                <p>Here is the text from the video blah blah blah…</p>
+                <button data-toggle="read-more" href="#" id="read-more-btn">Mehr lesen<i class="fa fa-plus"></i></button>
+                <div class="read-more" id="read-more" data-toggler data-animate="fade-in fade-out">
+                  <p>Ridiculus consequat, debitis elementum! Occaecati vivamus semper cupiditate! Aut nemo beatae, netus habitasse arcu voluptas. Malesuada cum occaecati nihil reprehenderit, irure wisi senectus beatae pede? Ratione at sapiente earum mollitia ullamcorper volutpat perspiciatis odio et euismod! Magni? Ullamco mollitia voluptate, esse porta turpis anim iusto sint fringilla lobortis? Voluptate vestibulum.</p>
+                  <button data-toggle="read-more" href="#" id="read-less-btn">Weniger lesen <i class="fa fa-plus"></i></button>
+                </div>
+              </div>
          </section>
+
+
 
     <!--- WEBCAM SECTION  -->
 
     <section class="upload-section" id="upload-form">
-
+            
              <div class="grid-x align-center align-middle">
                 <div class="small-12 cell">
+
                   <a class="take-video"> 
                     <img src="assets/img/camera.png">
                   </a>
@@ -102,7 +102,13 @@
                   <a class="take-video"><h2 class="text-center">Datei hochladen</h2></a></div>
                 </div>
               </div>
-          
+
+                <div class="grid-x grid-padding-x">
+                <div class="small-12 cell example-button">
+                   <a href="beispiele.html" class="button large custom2">Beispiele</a>
+                </div>
+              </div>
+         
            
            <div class="grid-x">
            <div class="small-12 cell desktop-video">
@@ -119,7 +125,7 @@
               <!-- VIDEO UPLOAD FORM -->
                 <form action="upload_file.php" method="post" enctype="multipart/form-data">
 
-              <a href="beispiele.html" class="button">Beispele</a>
+              <a href="beispiele.html" class="button">Beispiele</a>
                 
                 <br>
                 <label for="choosefile" id="choosefile-label" class="button">Take Video</label>
@@ -226,11 +232,11 @@
       <div class="grid-x">
         <div class="cell">
         <ul class="small-vertical medium-horizontal menu align-center">
-          <li><a href="stuck.html">Das Stück</a></li>
-        <li><a href="beispiele.html">Bespiele</a></li>
+        <li><a href="stuck.html">Das Stück</a></li>
         <li><a href="team.html">Das Team</a></li>
-        <li><a href="wach.html">Wach?</a></li>
+        <li><a href="beispiele.html">Beispiele</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="wach.html">WACH?</a></li>
         </div>
       </div>
     </div>

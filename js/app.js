@@ -2,14 +2,13 @@ $(document).foundation();
 
 $(document).ready(function() {
 
-var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ? true : false;
 
-$("#replay-btn").hide();
 $("#webcam").hide();
 // Anchor Link Scroll
 var infovid = $('#info-vid');
-var playbtn = $("#play-btn");
 var confirmed = $('.confirmed');
+var videobtn = $('.video-btn');
+var cameraimg = $('.take-video img');
 
 confirmed.hide();
 
@@ -20,13 +19,28 @@ $("#down-btn").click(function(){
         scrollTop: $( $(this).attr('href') ).offset().top
     }, 500);
        infovid.get(0).play();
-    playbtn.hide();
     return false;
  
     
 });
 
+$("#read-more-btn").click(function(){
+    $("#read-more-btn").hide();
+});
 
+$("#read-less-btn").click(function(){
+    $("#read-more-btn").show();
+});
+
+$(window).scroll(function() {
+   var hT = infovid.offset().top,
+       hH = infovid.outerHeight(),
+       wH = $(window).height(),
+       wS = $(this).scrollTop();
+   if (wS > (hT+hH-wH)){
+       infovid.get(0).play();
+   }
+});
 
 
 
@@ -41,24 +55,23 @@ $("#upload").click(function(){
 	$(".video-container").hide();
 });
 
-    if(!isMobile) {
+videobtn.hover(
+    function() {
+        cameraimg.addClass('is-hovered');
+    },
+    function(){
+        cameraimg.removeClass('is-hovered');
+    }
+    );
 
-infovid.on('ended',function(){
-      $("#replay-btn").show();
-    });
-
-$("#replay-btn").click(function(){
-	$("#replay-btn").hide();
-	infovid.get(0).play();
-});
-
-
-playbtn.click(function(){
-    infovid.get(0).play();
-    playbtn.hide();
-});
-
-}
+cameraimg.hover(
+    function() {
+        videobtn.addClass('is-hovered');
+    },
+    function(){
+        videobtn.removeClass('is-hovered');
+    }
+    );
 
 // Animate Gif function
 

@@ -3,7 +3,7 @@
 \* -----------------------------------------------------------------------*/
 
 $light-blue: #AADEE9;
-$orange: #E94E1B;
+$orange: #F57F1F;
 $light-orange: #EE964B;
 
 
@@ -91,6 +91,7 @@ h3 {
   font-family: "ProximaNova-Bold";
   padding: 0;
   margin: 0;
+  color: $orange;
 }
 
 h4 {
@@ -136,6 +137,7 @@ text-indent: 2rem;
    }
 
 }
+
 
 /* -----------------------------------------------------------------------*\
  NAVIGATION
@@ -404,55 +406,42 @@ text-indent: 2rem;
 \* -----------------------------------------------------------------------*/
 
 
-.vid-controls {
-
-}
-
-#play-btn img {
-height: 20%;
-  position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-        padding-right: 5rem; 
-
-}
-
-
-
-
-#replay-btn {
-
-	img {
-		
-	height: 20%;
-	position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    padding-right: 6rem; 
-  
-	}
-
-}
-
-#play-btn img:hover, #replay-btn img:hover {
-     filter: brightness(85%);
-}
-
-@media only screen and (max-width: 800px) {
-
-  
-
-}
 
 .responsive-embed, .flex-video {
   margin-bottom: 0rem;
 }
 
+.vid-text {
+  padding: 1rem 3rem;
+  background-color: $orange;
+}
+
+.vid-text .callout {
+
+}
+
+
+
+
+
+.read-more-content,
+.read-more {
+  display: none;
+  margin-top: 1rem;
+
+  &.expanded {
+    .read-more {
+      display: block;
+    }
+  }
+}
 /* -----------------------------------------------------------------------*\
 	FORM
 \* -----------------------------------------------------------------------*/
+
+.camera-hover {
+  border: solid 5px red;
+}
 
 .back-btn img {
   max-height: 3rem;
@@ -467,6 +456,22 @@ height: 20%;
 
 }
 
+.example-button {
+
+
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2rem;
+
+
+}
+
+.example-button a {
+
+  font-size: 1rem;
+}
+
 #webcam {
     border: solid 5px white;
     margin:: 2rem;
@@ -475,7 +480,7 @@ height: 20%;
 }
 
 .upload-section {
-	background-color: #ED6E44;
+	background-color: $orange;
   padding: 5rem 0rem;
 }
 
@@ -487,6 +492,11 @@ height: 20%;
 }
 
 .video-btn:hover {
+    filter: brightness(0%);
+  transition: all 0.2s ease-in-out 0s;
+}
+
+.is-hovered {
     filter: brightness(0%);
   transition: all 0.2s ease-in-out 0s;
 }
@@ -510,7 +520,7 @@ video {
 
 }
 
-.callout {
+.upload-section .callout {
  display: none;
   margin: 0 auto;
   padding: 2rem;
@@ -552,7 +562,7 @@ textarea {
 
 @media only screen and (min-width: 1200px) {
 
-  .callout {
+ .upload-section .callout {
  display: none;
   margin: 0 auto;
   width: 1150px;
@@ -568,7 +578,7 @@ textarea {
     max-width: 50rem;
   }
 
-  .callout {
+  .upload-section .callout {
  display: none;
   margin: 0 auto;
   max-width: 50rem;
@@ -581,7 +591,7 @@ textarea {
 
 @media only screen and (max-width: 800px) {
 
-  .callout {
+   .upload-section .callout {
  display: none;
   margin: 0 auto;
   max-width: 30rem;
@@ -615,7 +625,7 @@ textarea {
 
 @media only screen and (max-width: 400px) {
 
-   .callout {
+    .upload-section .callout {
  display: none;
   margin: 0 auto;
   max-width: 20rem;
@@ -661,8 +671,8 @@ textarea {
 }
 
 
-.team, .piece, .wach, .kontakt {
-  margin-top: -10rem;
+.team, .piece, .wach, .kontakt, .beispiele {
+
 
   h1 {
     margin-top: 12rem;
@@ -672,7 +682,7 @@ textarea {
   }
 
   h2 {
-    margin-top: -6rem;
+    margin-top: 4rem;
     font-size: 4.3rem;
      letter-spacing: 2rem;
     text-indent: 2rem;
@@ -849,7 +859,30 @@ padding-bottom: 5rem;
   padding-top: 4rem;
 }
 
+.custom {
+  background-color: $orange;
+}
 
+.custom:focus {
+  background-color: darken($orange, 5%);
+}
+
+.custom:hover {
+  background-color: darken($orange, 15%);
+}
+
+.custom2 {
+  background-color: $orange;
+  border: solid 1px white;
+}
+
+.custom2:focus {
+  background-color: darken($orange, 5%);
+}
+
+.custom2:hover {
+  background-color: darken($orange, 15%);
+}
 /* -----------------------------------------------------------------------*\
   kontakt
 \* -----------------------------------------------------------------------*/
@@ -881,8 +914,6 @@ padding-bottom: 5rem;
 }
 
 .beispiele h2 {
-  padding: 0rem;
-  margin: 0;
 }
 
 @media only screen and (max-width: 850px) {

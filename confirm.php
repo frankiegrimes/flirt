@@ -27,8 +27,9 @@
 
     <div class="top-bar-right">
       <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
-        <li><a href="team.html">Das Team</a></li>
         <li><a href="stuck.html">Das Stück</a></li>
+        <li><a href="team.html">Das Team</a></li>
+        <li><a href="beispiele.html">Beispiele</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
         <li><a href="wach.html">Wach?</a></li>
       </ul>
@@ -87,7 +88,25 @@
       <div class="callout" style="display: block;">
             <div class="grix-x grid-padding-x">
                <div class="small-12 cell">
-                   <h3 class="text-center">Thank you for your upload!</h3>
+                   <h3 class="text-center">Dein Video würde verschickt</h3>
+                   <br>
+                   <h3 class="text-center">Veilen Dank!</h3>
+                   <br>
+                   <h3 class="text-center">Willst Du nochmal?</h3>
+                   <br>
+
+                   <h3 class="text-center">Willst Du mehr wissen?</h3>
+                   <br>
+                   <div class="grid-x align-center">
+                      <div class="small-2 cell">
+                        <a href="stuck.html"><h4 class="text-center">das Stück</h4></a>
+                      </div>
+                       <div class="small-2 cell">
+                        <a href="team.html"><h4 class="text-center">das Team</h4></a>
+                      </div>
+                       <div class="small-2 cell">
+                        <a href="wach.html"><h4 class="text-center">WACH?</h4></a>
+                      </div>
                  </div>
                   
              </div>
@@ -154,10 +173,11 @@
       <div class="grid-x">
         <div class="cell">
         <ul class="small-vertical medium-horizontal menu align-center">
-          <li><a href="team.html">Das Team</a></li>
-          <li><a href="stuck.html">Das Stück</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-          <li><a href="wach.html">Wach?</a></li>
+      <li><a href="stuck.html">Das Stück</a></li>
+        <li><a href="team.html">Das Team</a></li>
+        <li><a href="beispiele.html">Beispiele</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="wach.html">WACH?</a></li>
         </div>
       </div>
     </div>
