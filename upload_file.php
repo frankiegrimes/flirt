@@ -44,6 +44,22 @@ $email = mysqli_real_escape_string($link, $_REQUEST['email']);
 $description = mysqli_real_escape_string($link, $_REQUEST['description']);
 $filename = $_FILES["file"]["name"];
 
+$to      = $email;
+$subject = 'FLIRT';
+$message = 'Vielen Dank für dein Video bei www.flirt-performance.de
+            für das Theaterstück FLIRT.
+            Das Stück wird im Februar 2018 Premiere haben.
+            Die Premiere ist in Düsseldorf am FFT
+            und im Mai spielen wir beim Theater Strahl in Berlin.
+            Davor schicken wir dir noch genaue Infos
+            damit du kommst.
+            Dein FLIRT - Team';
+$headers = 'From: info@flirt-performance.de' . "\r\n" .
+          'Reply-To: info@flirt-performance.de' . "\r\n" .
+          'X-Mailer: PHP/' . phpversion();
+
+
+
 $sql =  "INSERT INTO $table_name (name, email, description, videotitle) VALUES ('$name', '$email', '$description', '$filename')";
 
 
@@ -86,6 +102,7 @@ if ((($_FILES["file"]["type"] == "video/mp4")
       move_uploaded_file($_FILES["file"]["tmp_name"],
       "upload/" . $_FILES["file"]["name"]);
       echo $content;
+      mail($to, $subject, $message, $headers);
       
       }
     }

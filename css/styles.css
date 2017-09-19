@@ -636,7 +636,19 @@ footer p {
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
-          justify-content: center; }
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.fa-facebook-square {
+  color: #fff;
+  padding: 1rem; }
+
+.fa-facebook-square:hover {
+  color: #999999;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
 
 .footer-dark p {
   padding-top: 2rem;

@@ -950,8 +950,19 @@ footer p {
 .fft {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
+.fa-facebook-square {
+  color: #fff;
+  padding: 1rem;
+}
+
+.fa-facebook-square:hover {
+  color: darken(#fff, 40%);
+  transition: all 0.2s ease-in-out 0s;
+  
+}
 
 .footer-dark p {
 

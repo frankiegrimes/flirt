@@ -167,6 +167,11 @@
                 <img src="assets/img/fft.png">
             
             </div>
+            <div class="small-12 cell fft">
+              
+                <img src="assets/img/TStrahl.png">
+            
+            </div>
         </div>
         </div>
     <div class="footer-menu">
