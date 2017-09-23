@@ -148,19 +148,24 @@
       </div>
 
      
-      <div class="grix-x grid-padding-x">
-        <div class="small-12">
-           <p class="text-center">In Koproduktion mit:</p>
-       </div>
-     </div>
-     <div class="grix-x grid-padding-x align-center">
-     <div class="small-12 cell fft">
-          
-            <img src="assets/img/fft.png">
-        
+       <div class="grix-x grid-padding-x">
+         <div class="small-12">
+            <p class="text-center">In Koproduktion mit:</p>
         </div>
-    </div>
-    </div>
+      </div>
+      <div class="grix-x grid-padding-x align-center fft">
+      <div class="small-2 small-offset-1 cell">
+           
+             <img src="assets/img/fft.png">
+         
+         </div>
+         <div class="small-2 cell">
+               
+                 <img src="assets/img/TStrahl.png">
+             
+             </div>
+     </div>
+     </div>
     <div class="footer-menu">
       <div class="grid-x">
         <div class="cell">

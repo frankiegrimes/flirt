@@ -731,10 +731,8 @@ textarea {
   }
 
     .team h2 {
-    font-size: 2rem;
      letter-spacing: 2.5rem;
     text-indent: 2.5rem;
-    margin-top: -4rem;
 
   }
 
@@ -760,10 +758,8 @@ textarea {
   }
 
     .team h2 {
-    font-size: 2rem;
      letter-spacing: 1.5rem;
     text-indent: 1.5rem;
-    margin-top: -4rem;
 
   }
 
@@ -782,7 +778,6 @@ textarea {
     font-size: 3rem;
      letter-spacing: 1.5rem;
     text-indent: 1.5rem;
-    margin-top: -4rem;
 
   }
 
@@ -801,7 +796,6 @@ textarea {
     font-size: 2rem;
      letter-spacing: 2.5rem;
     text-indent: 2.5rem;
-    margin-top: -4rem;
 
   }
 
@@ -819,7 +813,6 @@ textarea {
     font-size: 1rem;
      letter-spacing: 1.3rem;
     text-indent: 1.3rem;
-    margin-top: -1rem;
 
   }
 
@@ -902,6 +895,23 @@ padding-bottom: 5rem;
 /* -----------------------------------------------------------------------*\
   Beispele
 \* -----------------------------------------------------------------------*/
+
+.video-gallery {
+  padding: 2rem;
+}
+
+.beispiele .card {
+    border: none;
+    padding: 2rem 1rem;
+    
+
+}
+
+.beispiele .card img:hover {
+  filter: brightness(80%);
+    transition: all 0.2s ease-in-out 0s;
+
+}
 
 .video-slider {
   padding: 5rem 10rem;

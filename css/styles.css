@@ -495,10 +495,8 @@ textarea {
     letter-spacing: 3rem;
     text-indent: 3rem; }
   .team h2 {
-    font-size: 2rem;
     letter-spacing: 2.5rem;
-    text-indent: 2.5rem;
-    margin-top: -4rem; }
+    text-indent: 2.5rem; }
   .team h3 {
     font-size: 1.2rem; }
   .team h4 {
@@ -511,10 +509,8 @@ textarea {
     text-indent: 2rem;
     padding-top: 2rem; }
   .team h2 {
-    font-size: 2rem;
     letter-spacing: 1.5rem;
-    text-indent: 1.5rem;
-    margin-top: -4rem; } }
+    text-indent: 1.5rem; } }
 
 @media only screen and (max-width: 850px) {
   .piece h1, .kontakt h1 {
@@ -525,8 +521,7 @@ textarea {
   .piece h2, .kontakt h2 {
     font-size: 3rem;
     letter-spacing: 1.5rem;
-    text-indent: 1.5rem;
-    margin-top: -4rem; } }
+    text-indent: 1.5rem; } }
 
 @media only screen and (max-width: 800px) {
   .wach h1 {
@@ -537,8 +532,7 @@ textarea {
   .wach h2 {
     font-size: 2rem;
     letter-spacing: 2.5rem;
-    text-indent: 2.5rem;
-    margin-top: -4rem; } }
+    text-indent: 2.5rem; } }
 
 @media only screen and (max-width: 600px) {
   .wach h1, .stuck h1, .kontakt h1 {
@@ -548,8 +542,7 @@ textarea {
   .wach h2, .stuck h2, .kontakt h2 {
     font-size: 1rem;
     letter-spacing: 1.3rem;
-    text-indent: 1.3rem;
-    margin-top: -1rem; } }
+    text-indent: 1.3rem; } }
 
 .orange {
   color: #F57F1F; }
@@ -603,6 +596,19 @@ textarea {
 
 /* -----------------------------------------------------------------------*  Beispele
 \* -----------------------------------------------------------------------*/
+.video-gallery {
+  padding: 2rem; }
+
+.beispiele .card {
+  border: none;
+  padding: 2rem 1rem; }
+
+.beispiele .card img:hover {
+  -webkit-filter: brightness(80%);
+          filter: brightness(80%);
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s; }
+
 .video-slider {
   padding: 5rem 10rem; }
 
