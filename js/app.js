@@ -1,5 +1,9 @@
 $(document).foundation();
 
+$(document).on('closed.zf.reveal', '[data-reveal]', function() {
+  $("video").each(function () { this.pause(); });
+});
+
 $(document).ready(function() {
 
 
