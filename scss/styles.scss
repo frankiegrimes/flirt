@@ -100,6 +100,8 @@ h4 {
   margin: 0;
 }
 
+
+
 p {
   font-family: "ProximaNova-Light";
   color: $orange;
@@ -371,7 +373,7 @@ p {
     filter: grayscale(100%); 
     */
     filter: brightness(70%);
-     background: url(../assets/img/poster.png) no-repeat;
+     background: url(../assets/img/poster2.png) no-repeat;
     background-size: cover; 
     display: block;
 
@@ -419,7 +421,7 @@ p {
 @media only screen and (max-width: 800px) {
 
   .eyes-video {
-    background: url(../assets/img/poster.png) no-repeat center center fixed;
+    background: url(../assets/img/poster2.png) no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh;
 

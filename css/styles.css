@@ -244,7 +244,7 @@ p {
     */
     -webkit-filter: brightness(70%);
             filter: brightness(70%);
-    background: url(../assets/img/poster.png) no-repeat;
+    background: url(../assets/img/poster2.png) no-repeat;
     background-size: cover;
     display: block; }
   .eyes-video h1 {
@@ -284,7 +284,7 @@ p {
 
 @media only screen and (max-width: 800px) {
   .eyes-video {
-    background: url(../assets/img/poster.png) no-repeat center center fixed;
+    background: url(../assets/img/poster2.png) no-repeat center center fixed;
     background-size: cover;
     min-height: 100vh; }
     .eyes-video #video_bg {
