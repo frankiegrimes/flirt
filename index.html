@@ -6,6 +6,30 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Flirt">
+    <meta property="og:title" content="Flirt">
+    <meta property="og:description" content="Flirt">
+    <meta property="og:url" content="http://www.flirt-performance.de">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="http://www.flirt-performance.de/assets/img/flirt-og-image.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
     <title>Flirt</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -40,7 +64,7 @@
    <!--- LANDING PAGE  -->
 
   <section class="eyes-video">
-      <video autoplay preload loop muted poster="assets/img/poster.png" id="video_bg">
+      <video autoplay preload loop muted poster="assets/img/poster2.png" id="video_bg">
         <source src="assets/video/eyes.webm" type="video/webm">
         <source src="assets/video/eyes.mp4" type="video/mp4">
       </video>
@@ -65,7 +89,7 @@
       <!--- INFORMATION VIDEO  -->
       <section id="info-video">
             <div class="responsive-embed widescreen">
-                    <video id="info-vid" controls src="assets/video/info-video.mp4" muted>
+                    <video id="info-vid" controls muted src="assets/video/info-video.mp4">
                       
                     </video>
                     
@@ -74,11 +98,19 @@
            <div class="vid-text">
               <div class="callout secondary">
                 <h3>Textversion</h3>
-                <p>Here is the text from the video blah blah blah…</p>
-                <button data-toggle="read-more" href="#" id="read-more-btn">Mehr lesen<i class="fa fa-plus"></i></button>
+                <p>Hallo, schön Das du da bist! Willkommen auf unserer Homepage.…</p>
+                <button data-toggle="read-more" href="#" id="read-more-btn" class="read-more-button">Mehr lesen<i class="fa fa-plus"></i></button>
                 <div class="read-more" id="read-more" data-toggler data-animate="fade-in fade-out">
-                  <p>Ridiculus consequat, debitis elementum! Occaecati vivamus semper cupiditate! Aut nemo beatae, netus habitasse arcu voluptas. Malesuada cum occaecati nihil reprehenderit, irure wisi senectus beatae pede? Ratione at sapiente earum mollitia ullamcorper volutpat perspiciatis odio et euismod! Magni? Ullamco mollitia voluptate, esse porta turpis anim iusto sint fringilla lobortis? Voluptate vestibulum.</p>
-                  <button data-toggle="read-more" href="#" id="read-less-btn">Weniger lesen <i class="fa fa-plus"></i></button>
+                  <p>Wusstest Du das innerhalb der ersten 8 Sekunden, wenn Du jemanden triffst, schon entschieden ist, wie Du ihn findest?
+Wir machen ein Theaterstück zum Thema Flirten. Wo gibt es Flirten, was passiert da und wie funktioniert das…
+Es ist nicht nur um das Flirten in Bezug auf Attraktivität und Sexualität.
+Wir sagen: Flirten ist überall,  was man nicht sagen kann… im Café, im Supermarkt, an der Bar, bei einer Party, bei einem Jobinterview, in der Politik,
+Wir nennen das Flirten. Und hier kannst du deine Geschichten aufnehmen und hochladen und an uns schicken. Dieses Material nehmen wir in unser Stück.
+Was sind dir schon mal für Geschichten beim Flirten passiert? Lief immer alles gut? Gab es Missverständnisse? Was ist dir wichtig? Wie würdest du gerne mal flirten oder angeflirtet werden? Was sind gute Tips?
+Wir werden nicht eure Videos verwenden, sondern nur den Inhalt von dem was ihr erzählt. Jedes Video bleibt also nur bei uns und wird nicht veröffentlicht. Quasi streng vertraulich.
+Das Stück hat im Februar 2018 in Düsseldorf Premiere. Danach spielen wir im Mai 2018 in Berlin. Alle Termine kannst du auch immer hier auf dieser Website finden. Das Stück ist für taube und hörende Menschen zusammen.
+Mehr Infos kannst Du hier unten bei Das Stück nachlesen..</p>
+                  <button data-toggle="read-more" href="#" id="read-less-btn" class="read-less-button">Weniger lesen <i class="fa fa-plus"></i></button>
                 </div>
               </div>
             </div>
@@ -126,7 +158,7 @@
               <!-- VIDEO UPLOAD FORM -->
                 <form action="upload_file.php" method="post" enctype="multipart/form-data">
 
-              <a href="beispiele.html" class="button">Beispiele</a>
+              
                 
                 <br>
                 <label for="choosefile" id="choosefile-label" class="button">Take Video</label>
@@ -189,27 +221,27 @@
 
         <div class="small-12 medium-2 medium-offset-1 cell">
    
-        <img src="assets/img/logo-3-01.png">
+        <img src="assets/img/logo-1.png">
         
         </div>
         <div class="small-12 medium-2 cell">
           
-            <img src="assets/img/logo-2-01.png">
+            <img src="assets/img/logo-2.png">
         
         </div>
         <div class="small-12 medium-2 cell">
           
-          <img src="assets/img/logo-1-01.png">
+          <img src="assets/img/logo-3.png">
       
         </div>
         <div class="small-12 medium-2 cell">
           
-          <img src="assets/img/logo-5-01.png">
+          <img src="assets/img/logo-4.png">
     
         </div>
         <div class="small-12 medium-2 cell">
        
-        <img src="assets/img/logo-4-01.png">
+        <img src="assets/img/logo-5.png">
         
         </div>
 
@@ -217,9 +249,10 @@
 
      
       <div class="grix-x grid-padding-x">
-        <div class="small-12">
-           <p class="text-center">In Koproduktion mit:</p>
+        <div class="small-12 cell">
+           <p class="text-center">Koproduktion & Kooperation mit:</p>
        </div>
+       
      </div>
      <div class="grix-x grid-padding-x align-center fft">
      <div class="small-2 small-offset-1 cell">

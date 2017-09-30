@@ -4,11 +4,11 @@ $allowedExts = array("MOV", "mov", "wmv", "m4v", "avi", "mp4", "3gp", "flv");
 $extension = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
 $file_path = "confirm.php";
 $content = file_get_contents($file_path);
-$errorfilepath = "invalid.php";
+$errorfilepath = "invalid.php#anchor";
 $errorcontent = file_get_contents($errorfilepath);
-$error2filepath = "error.php";
+$error2filepath = "error.php#anchor";
 $error = file_get_contents($error2filepath);
-$duplicatefilepath = "duplicate.php";
+$duplicatefilepath = "duplicate.php#anchor";
 $duplicatecontent = file_get_contents($duplicatefilepath);
 
 
@@ -46,17 +46,19 @@ $filename = $_FILES["file"]["name"];
 
 $to      = $email;
 $subject = 'FLIRT';
-$message = 'Vielen Dank für dein Video bei www.flirt-performance.de
+$message = '<p>Vielen Dank für dein Video bei www.flirt-performance.de
             für das Theaterstück FLIRT.
             Das Stück wird im Februar 2018 Premiere haben.
             Die Premiere ist in Düsseldorf am FFT
             und im Mai spielen wir beim Theater Strahl in Berlin.
             Davor schicken wir dir noch genaue Infos
             damit du kommst.
-            Dein FLIRT - Team';
-$headers = 'From: info@flirt-performance.de' . "\r\n" .
-          'Reply-To: info@flirt-performance.de' . "\r\n" .
-          'X-Mailer: PHP/' . phpversion();
+            Dein FLIRT - Team</p>';
+$headers = 'From: info@flirt-performance.de' . "\r\n";
+$headers .= 'MIME-Version: 1.0'  "\r\n";
+$headers .= "Content-type: text/html; charset=iso-8859-1\r\n";
+$headers .= 'Reply-To: info@flirt-performance.de' . "\r\n";
+$headers .= 'X-Mailer: PHP/' . phpversion();
 
 
 

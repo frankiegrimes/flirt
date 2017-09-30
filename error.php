@@ -88,14 +88,14 @@
 
     <!--- WEBCAM SECTION  -->
 
-    <section class="upload-section">
+    <section class="upload-section" id="anchor">
 
              
   
       <div class="callout" style="display: block;">
             <div class="grix-x grid-padding-x">
                <div class="small-12 cell">
-                   <h3 class="text-center">Error. Please try again.</h3>
+                   <h3 class="text-center"><strong>ALLGEMEINER FEHLER</strong><br> Sorry! Da ist etwas schief gelaufen. Bitte nochmal versuchen.</h3>
                  </div>
                   <div class="small-12 cell align-center back-btn">
                    <a href="index.html#upload-form">
@@ -110,62 +110,62 @@
   <!--- FOOTER -->
 
   <footer>
-    <div class="footer-light">
-      <div class="grix-x grid-padding-x">
-        <div class="small-12 cell">
-           <p class="text-center">Gefördert von:</p>
-       </div>
-     </div>
-     
-      <div class="grid-x grid-padding-x footer-logos">
-
-        <div class="small-12 medium-2 medium-offset-1 cell">
-   
-        <img src="assets/img/logo-3-01.png">
-        
-        </div>
-        <div class="small-12 medium-2 cell">
-          
-            <img src="assets/img/logo-2-01.png">
-        
-        </div>
-        <div class="small-12 medium-2 cell">
-          
-          <img src="assets/img/logo-1-01.png">
-      
-        </div>
-        <div class="small-12 medium-2 cell">
-          
-          <img src="assets/img/logo-5-01.png">
-    
-        </div>
-        <div class="small-12 medium-2 cell">
-       
-        <img src="assets/img/logo-4-01.png">
-        
-        </div>
-
-      </div>
-
-     
-       <div class="grix-x grid-padding-x">
-         <div class="small-12">
-            <p class="text-center">In Koproduktion mit:</p>
-        </div>
-      </div>
-      <div class="grix-x grid-padding-x align-center fft">
-      <div class="small-2 small-offset-1 cell">
-           
-             <img src="assets/img/fft.png">
-         
+      <div class="footer-light">
+        <div class="grix-x grid-padding-x">
+          <div class="small-12 cell">
+             <p class="text-center">Gefördert von:</p>
          </div>
-         <div class="small-2 cell">
-               
-                 <img src="assets/img/TStrahl.png">
-             
-             </div>
-     </div>
-     </div>
+       </div>
+       
+        <div class="grid-x grid-padding-x footer-logos">
+
+          <div class="small-12 medium-2 medium-offset-1 cell">
+     
+          <img src="assets/img/logo-1.png">
+          
+          </div>
+          <div class="small-12 medium-2 cell">
+            
+              <img src="assets/img/logo-2.png">
+          
+          </div>
+          <div class="small-12 medium-2 cell">
+            
+            <img src="assets/img/logo-3.png">
+        
+          </div>
+          <div class="small-12 medium-2 cell">
+            
+            <img src="assets/img/logo-4.png">
+      
+          </div>
+          <div class="small-12 medium-2 cell">
+         
+          <img src="assets/img/logo-5.png">
+          
+          </div>
+
+        </div>
+
+       
+        <div class="grix-x grid-padding-x">
+          <div class="small-12">
+             <p class="text-center">In Koproduktion mit:</p>
+         </div>
+       </div>
+       <div class="grix-x grid-padding-x align-center fft">
+       <div class="small-2 small-offset-1 cell">
+            
+              <img src="assets/img/fft.png">
+          
+          </div>
+          <div class="small-2 cell">
+                
+                  <img src="assets/img/TStrahl.png">
+              
+              </div>
+      </div>
+      </div>
     <div class="footer-menu">
       <div class="grid-x">
         <div class="cell">

@@ -13,6 +13,7 @@ var infovid = $('#info-vid');
 var confirmed = $('.confirmed');
 var videobtn = $('.video-btn');
 var cameraimg = $('.take-video img');
+var n = 0;
 
 confirmed.hide();
 
@@ -28,21 +29,24 @@ $("#down-btn").click(function(){
     
 });
 
-$("#read-more-btn").click(function(){
-    $("#read-more-btn").hide();
+$(".read-more-button").click(function(){
+    $(".read-more-button").hide();
 });
 
-$("#read-less-btn").click(function(){
-    $("#read-more-btn").show();
+$(".read-less-button").click(function(){
+    $(".read-more-button").show();
 });
 
 $(window).scroll(function() {
+
+    
    var hT = infovid.offset().top,
        hH = infovid.outerHeight(),
        wH = $(window).height(),
        wS = $(this).scrollTop();
-   if (wS > (hT+hH-wH)){
+   if ( ((wS > (hT+hH-wH)) && (n === 0)) ){
        infovid.get(0).play();
+       n+=1;
    }
 });
 
@@ -52,6 +56,7 @@ $(".take-video").click(function(){
 	$(".callout").show();
 	$(".take-video").hide();
 	$(".video-btn").hide();
+    $(".example-button").hide();
 	
 });
 

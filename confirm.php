@@ -118,44 +118,44 @@
   <!--- FOOTER -->
 
   <footer>
-    <div class="footer-light">
-          <div class="grix-x grid-padding-x">
-            <div class="small-12 cell">
-               <p class="text-center">Gefördert von:</p>
-           </div>
+      <div class="footer-light">
+        <div class="grix-x grid-padding-x">
+          <div class="small-12 cell">
+             <p class="text-center">Gefördert von:</p>
          </div>
-         
-          <div class="grid-x grid-padding-x footer-logos">
-
-            <div class="small-12 medium-2 medium-offset-1 cell">
+       </div>
        
-            <img src="assets/img/logo-3-01.png">
-            
-            </div>
-            <div class="small-12 medium-2 cell">
-              
-                <img src="assets/img/logo-2-01.png">
-            
-            </div>
-            <div class="small-12 medium-2 cell">
-              
-              <img src="assets/img/logo-1-01.png">
-          
-            </div>
-            <div class="small-12 medium-2 cell">
-              
-              <img src="assets/img/logo-5-01.png">
-        
-            </div>
-            <div class="small-12 medium-2 cell">
-           
-            <img src="assets/img/logo-4-01.png">
-            
-            </div>
+        <div class="grid-x grid-padding-x footer-logos">
 
+          <div class="small-12 medium-2 medium-offset-1 cell">
+     
+          <img src="assets/img/logo-1.png">
+          
+          </div>
+          <div class="small-12 medium-2 cell">
+            
+              <img src="assets/img/logo-2.png">
+          
+          </div>
+          <div class="small-12 medium-2 cell">
+            
+            <img src="assets/img/logo-3.png">
+        
+          </div>
+          <div class="small-12 medium-2 cell">
+            
+            <img src="assets/img/logo-4.png">
+      
+          </div>
+          <div class="small-12 medium-2 cell">
+         
+          <img src="assets/img/logo-5.png">
+          
           </div>
 
-         
+        </div>
+
+       
         <div class="grix-x grid-padding-x">
           <div class="small-12">
              <p class="text-center">In Koproduktion mit:</p>
