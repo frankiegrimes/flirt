@@ -32,6 +32,7 @@
     <title>Flirt</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   </head>
 
 <body>
@@ -50,7 +51,7 @@
 
     <div class="top-bar-right">
       <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
-        <li><a href="stuck.html">Das Stück</a></li>
+        <li><a href="stueck.html">Das Stück</a></li>
         <li><a href="team.html">Das Team</a></li>
         <li><a href="beispiele.html">Beispiele</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
@@ -195,11 +196,16 @@ DOPPELTE DATEI</strong><br> Du hast diese Datei schon einmal hochgeladen. Danke!
       <div class="grid-x">
         <div class="cell">
         <ul class="small-vertical medium-horizontal menu align-center">
-        <li><a href="stuck.html">Das Stück</a></li>
+        <li><a href="stueck.html">Das Stück</a></li>
         <li><a href="team.html">Das Team</a></li>
         <li><a href="beispiele.html">Beispiele</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
         <li><a href="wach.html">WACH?</a></li>
+        </div>
+      </div>
+      <div class="grid-x">
+        <div class="cell fft">
+          <a href="http://www.facebook.com"><i class="fa fa-facebook-square fa-3x"></i></a>
         </div>
       </div>
     </div>

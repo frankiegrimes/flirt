@@ -11,7 +11,7 @@ $("#webcam").hide();
 // Anchor Link Scroll
 var infovid = $('#info-vid');
 var confirmed = $('.confirmed');
-var videobtn = $('.video-btn');
+var videobtn = $('.vid-b');
 var cameraimg = $('.take-video img');
 var n = 0;
 

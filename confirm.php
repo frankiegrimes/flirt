@@ -32,6 +32,7 @@
     <title>Flirt</title>
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   </head>
 
 <body>
@@ -50,7 +51,7 @@
 
     <div class="top-bar-right">
       <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
-        <li><a href="stuck.html">Das Stück</a></li>
+        <li><a href="stueck.html">Das Stück</a></li>
         <li><a href="team.html">Das Team</a></li>
         <li><a href="beispiele.html">Beispiele</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
@@ -120,15 +121,15 @@
 
                    <h3 class="text-center">Willst Du mehr wissen?</h3>
                    <br>
-                   <div class="grid-x align-center">
+                   <div class="grid-x grid-padding-x align-center">
                       <div class="small-12 medium-2 cell fft">
-                        <a href="stuck.html" class="text-center button custom">das Stück</a>
+                        <a href="stueck.html" class="text-center button large custom">das Stück</a>
                       </div>
                        <div class="small-12 medium-2 cell fft">
-                        <a href="team.html" class="text-center button custom">das Team</a>
+                        <a href="team.html" class="text-center button large custom">das Team</a>
                       </div>
                        <div class="small-12 medium-2 cell fft">
-                        <a href="wach.html" class="text-center button custom">WACH?</a>
+                        <a href="wach.html" class="text-center button large custom">WACH?</a>
                       </div>
                  </div>
                   
@@ -202,11 +203,16 @@
       <div class="grid-x">
         <div class="cell">
         <ul class="small-vertical medium-horizontal menu align-center">
-      <li><a href="stuck.html">Das Stück</a></li>
+      <li><a href="stueck.html">Das Stück</a></li>
         <li><a href="team.html">Das Team</a></li>
         <li><a href="beispiele.html">Beispiele</a></li>
         <li><a href="kontakt.html">Kontakt</a></li>
         <li><a href="wach.html">WACH?</a></li>
+        </div>
+      </div>
+      <div class="grid-x">
+        <div class="cell fft">
+          <a href="http://www.facebook.com"><i class="fa fa-facebook-square fa-3x"></i></a>
         </div>
       </div>
     </div>
