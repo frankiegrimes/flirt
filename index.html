@@ -64,7 +64,7 @@
    <!--- LANDING PAGE  -->
 
   <section class="eyes-video">
-      <video autoplay loop muted poster="assets/img/poster2.png" id="video_bg">
+      <video autoplay loop muted id="video_bg">
         <source src="assets/video/eyes.webm" type="video/webm">
         <source src="assets/video/eyes.mp4" type="video/mp4">
       </video>
@@ -96,7 +96,7 @@
          
            </div>
            <div class="vid-text">
-              <div class="callout secondary">
+              <div class="callout">
                 <h3>Textversion</h3>
                 <p>Hallo, schön Das du da bist! Willkommen auf unserer Homepage.…</p>
                 <button data-toggle="read-more" href="#" id="read-more-btn" class="read-more-button">Mehr lesen<i class="fa fa-plus"></i></button>
@@ -150,13 +150,14 @@ Mehr Infos kannst Du hier unten bei Das Stück nachlesen..</p>
           </div>
   
       <div class="callout">
+        <div class="form-upload" id="aufnehmen">
             <div class="grid-x grid-padding-x align-center">
               <div class="large-6 medium-6 small-12 cell align-center">
               
 
 
               <!-- VIDEO UPLOAD FORM -->
-                <form action="upload_file.php" method="post" enctype="multipart/form-data">
+                <form action="upload_file.php" method="post" id="flirt-form" enctype="multipart/form-data" target="myIframe">
 
               
                 
@@ -203,6 +204,8 @@ Mehr Infos kannst Du hier unten bei Das Stück nachlesen..</p>
                       </div>
                     </div>
             </form>
+          </div>
+            
 
           </div>
 

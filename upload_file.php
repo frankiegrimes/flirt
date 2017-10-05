@@ -105,7 +105,7 @@ if ((($_FILES["file"]["type"] == "video/mp4")
       {
       move_uploaded_file($_FILES["file"]["tmp_name"],
       "upload/" . $_FILES["file"]["name"]);
-      echo $content;
+      /*echo $content;*/
       mail($to, $subject, $message, $headers);
       
       }

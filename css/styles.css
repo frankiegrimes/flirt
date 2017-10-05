@@ -44,7 +44,8 @@ h1 {
   color: white;
   font-size: 10rem;
   letter-spacing: 10rem;
-  text-indent: 10rem; }
+  text-indent: 10rem;
+  padding-top: 2rem; }
 
 h2 {
   color: white;
@@ -104,6 +105,12 @@ p {
 
 /* -----------------------------------------------------------------------* NAVIGATION
 \* -----------------------------------------------------------------------*/
+.aufnehmen {
+  margin: 2rem; }
+
+.orange-bg {
+  background-color: #EB722E !important; }
+
 .is-drilldown {
   max-width: 100%; }
 
@@ -244,8 +251,6 @@ p {
     -webkit-filter: grayscale(1); 
     filter: grayscale(100%); 
     */
-    -webkit-filter: brightness(70%);
-            filter: brightness(70%);
     background: url(../assets/img/poster2.png) no-repeat;
     background-size: cover;
     display: block; }
@@ -307,7 +312,7 @@ p {
 
 .vid-text {
   padding: 1rem 3rem;
-  background-color: #F57F1F; }
+  background-color: #EB722E; }
 
 .read-more-content,
 .read-more {
@@ -359,7 +364,7 @@ p {
           box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2); }
 
 .upload-section {
-  background-color: #F57F1F;
+  background-color: #EB722E;
   padding: 5rem 0rem; }
 
 .video-btn {
@@ -603,6 +608,10 @@ textarea {
 \* -----------------------------------------------------------------------*/
 .placeholder {
   min-height: 120vh; }
+
+.confirm-page {
+  padding-top: 10rem;
+  min-height: 100vh; }
 
 /* -----------------------------------------------------------------------*  FOOTER
 \* -----------------------------------------------------------------------*/

@@ -6,6 +6,8 @@ $(document).on('closed.zf.reveal', '[data-reveal]', function() {
 
 $(document).ready(function() {
 
+       
+
 
 $("#webcam").hide();
 // Anchor Link Scroll

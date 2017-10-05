@@ -43,7 +43,7 @@
 
   <!--- NAVIGATION  -->
 
-  <nav class="top-bar" id="example-menu">
+  <nav class="top-bar orange-bg" id="example-menu">
 
     <div class="top-bar-left hide-for-small-only">
       <a href="index.html"><span class="logo">FLIRT</span></a>
@@ -62,57 +62,11 @@
    
    <!--- LANDING PAGE  -->
 
-  <section class="eyes-video">
-      <video autoplay preload loop muted poster="assets/img/poster.png" id="video_bg">
-        <source src="assets/video/eyes.webm" type="video/webm">
-        <source src="assets/video/eyes.mp4" type="video/mp4">
-      </video>
-      <div class="videohue"></div>
-
-      <div class="grid-x">
-        <div class="cell">
-          <h1 class="text-center">FLIRT</h1>
-        </div>
-      </div>
-
-     <div class="grid-x align-center align-middle">
-        <div class="small-12 cell">
-          <a href="#info-video" rel="" id="down-btn">
-            <img src="assets/img/down.png">
-          </a>
-        </div>
-      </div>
-       
-  </section>
-
-      <!--- INFORMATION VIDEO  -->
-      <section id="info-video">
-            <div class="responsive-embed widescreen">
-                    <video id="info-vid" controls src="assets/video/info-video.mp4" muted>
-                      
-                    </video>
-                    <div class="grid-x vid-controls">
-               
-                      <div class="small-12 cell">
-                        <a id="replay-btn">
-                          <img src="assets/img/replay.png">
-                        </a>
-
-                      </div>
-                    
-                    <div class="small-12 cell">
-                      <a id="play-btn">
-                          <img src="assets/img/play.png">
-                        </a>
-                    </div>
-                  </div>
-         
-           </div>
-         </section>
+  
 
     <!--- WEBCAM SECTION  -->
 
-    <section class="upload-section" id="anchor">
+    <section class="upload-section confirm-page" id="anchor">
 
              
   

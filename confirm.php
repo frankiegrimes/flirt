@@ -43,13 +43,13 @@
 
   <!--- NAVIGATION  -->
 
-  <nav class="top-bar" id="example-menu">
+  <nav class="top-bar orange-bg" id="example-menu" >
 
     <div class="top-bar-left hide-for-small-only">
       <a href="index.html"><span class="logo">FLIRT</span></a>
     </div>
 
-    <div class="top-bar-right">
+    <div class="top-bar-right ">
       <ul class="vertical medium-horizontal menu" data-responsive-menu="drilldown medium-dropdown">
         <li><a href="stueck.html">Das Stück</a></li>
         <li><a href="team.html">Das Team</a></li>
@@ -62,50 +62,10 @@
    
    <!--- LANDING PAGE  -->
 
-  <section class="eyes-video">
-      <video autoplay preload loop muted poster="assets/img/poster.png" id="video_bg">
-        <source src="assets/video/eyes.webm" type="video/webm">
-        <source src="assets/video/eyes.mp4" type="video/mp4">
-      </video>
-      <div class="videohue"></div>
-
-      <div class="grid-x">
-        <div class="cell">
-          <h1 class="text-center">FLIRT</h1>
-        </div>
-      </div>
-
-     <div class="grid-x align-center align-middle">
-        <div class="small-12 cell">
-          <a href="#info-video" rel="" id="down-btn">
-            <img src="assets/img/down.png">
-          </a>
-        </div>
-      </div>
-       
-  </section>
-
-      <!--- INFORMATION VIDEO  -->
-      <section id="info-video">
-            <div class="responsive-embed widescreen">
-                    <video preload id="info-vid" controls src="assets/video/info-video.mp4" muted>
-                      <source src="" type="">
-                    </video>
-                    <div class="grid-x">
-                      <div class="small-4 cell"></div>
-                      <div class="small-4 cell">
-                        <a id="replay-btn">
-                          <img src="assets/img/replay.png">
-                        </a>
-                      </div>
-                    <div class="small-4 cell"></div>
-                  </div>
-         
-           </div>
-         </section>
+  
 
     <!--- WEBCAM SECTION  -->
-<section class="upload-section">
+<section class="upload-section confirm-page">
 
              
   
