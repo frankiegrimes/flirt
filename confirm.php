@@ -74,7 +74,7 @@
                <div class="small-12 cell">
                    <h3 class="text-center">Dein Video würde verschickt</h3>
                    <br>
-                   <h3 class="text-center">Veilen Dank!</h3>
+                   <h3 class="text-center">Vielen Dank!</h3>
                    <br>
                    <h3 class="text-center">Willst Du nochmal?</h3>
                    <br>
@@ -83,10 +83,10 @@
                    <br>
                    <div class="grid-x grid-padding-x align-center">
                       <div class="small-12 medium-2 cell fft">
-                        <a href="stueck.html" class="text-center button large custom">das Stück</a>
+                        <a href="stueck.html" class="text-center button large custom">Das Stück</a>
                       </div>
                        <div class="small-12 medium-2 cell fft">
-                        <a href="team.html" class="text-center button large custom">das Team</a>
+                        <a href="team.html" class="text-center button large custom">Das Team</a>
                       </div>
                        <div class="small-12 medium-2 cell fft">
                         <a href="wach.html" class="text-center button large custom">WACH?</a>
