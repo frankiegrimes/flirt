@@ -1,16 +1,41 @@
 <?php
 
+/*
+
+VARIABLES
+
+  - Allowed File Types
+
+*/
+
 $allowedExts = array("MOV", "mov", "wmv", "m4v", "avi", "mp4", "3gp", "flv");
 $extension = pathinfo($_FILES['file']['name'], PATHINFO_EXTENSION);
-$file_path = "confirm.php";
-$content = file_get_contents($file_path);
-$errorfilepath = "invalid.php";
-$errorcontent = file_get_contents($errorfilepath);
-$error2filepath = "error.php";
-$error = file_get_contents($error2filepath);
-$duplicatefilepath = "duplicate.php";
-$duplicatecontent = file_get_contents($duplicatefilepath);
 
+/*
+
+  - Php Pages
+
+*/
+
+$file_path = "confirm.php";
+$content = file_get_contents($file_path); // Success
+
+$errorfilepath = "invalid.php"; 
+$errorcontent = file_get_contents($errorfilepath); // Invalid File
+
+
+$error2filepath = "error.php";
+$error = file_get_contents($error2filepath); // General Error
+
+
+$duplicatefilepath = "duplicate.php";
+$duplicatecontent = file_get_contents($duplicatefilepath); // Duplicate File
+
+/*
+
+  - Database
+
+*/
 
 
 $db_server = "rdbms.strato.de";
@@ -30,6 +55,12 @@ $port = "3306";
 
 */
 
+/*
+
+ LINK mySQL
+
+*/
+
 
 $link = mysqli_connect($db_server, $db_user, $db_password, $db_name, $port);
 
@@ -38,6 +69,12 @@ if(!$link)
     echo $error;
     exit;
 }
+
+/*
+
+ Success Email Variables
+
+*/
 
 $name = mysqli_real_escape_string($link, $_REQUEST['name']);
 $email = mysqli_real_escape_string($link, $_REQUEST['email']);
@@ -63,6 +100,11 @@ $message = '<p>Vielen Dank für dein Video bei www.flirt-performance.de
               <p>Dein FLIRT - Team</p>';
 
 
+/*
+
+ Update Database
+
+*/
 
 $sql =  "INSERT INTO $table_name (name, email, description, videotitle) VALUES ('$name', '$email', '$description', '$filename')";
 
@@ -75,44 +117,58 @@ if(mysqli_query($link, $sql)){
 
 mysqli_close($link);
 
+/*
+
+ FILE UPLOAD
+&& ($_FILES["file"]["size"] < 13107200)
+*/
+
 if ((($_FILES["file"]["type"] == "video/mp4")
-|| ($_FILES["file"]["type"] == "video/quicktime")
-|| ($_FILES["file"]["type"] == "video/mov")
-|| ($_FILES["file"]["type"] == "video/3gpp")
-|| ($_FILES["file"]["type"] == "video/MOV")
-|| ($_FILES["file"]["type"] == "video/x-ms-wmv")
-|| ($_FILES["file"]["type"] == "video/avi")
-|| ($_FILES["file"]["type"] == "video/flv")
-|| ($_FILES["file"]["type"] == "video/m4v"))
+      || ($_FILES["file"]["type"] == "video/x-m4v")
+      || ($_FILES["file"]["type"] == "video/quicktime")
+      || ($_FILES["file"]["type"] == "video/mov")
+      || ($_FILES["file"]["type"] == "video/3gpp")
+      || ($_FILES["file"]["type"] == "video/MOV")
+      || ($_FILES["file"]["type"] == "video/x-ms-wmv")
+      || ($_FILES["file"]["type"] == "video/avi")
+      || ($_FILES["file"]["type"] == "video/flv")
+      || ($_FILES["file"]["type"] == "video/m4v"))
 
-&& ($_FILES["file"]["size"] < 500000000)
-&& in_array($extension, $allowedExts))
-
-  {
-  if ($_FILES["file"]["error"] > 0)
-    {
-    echo $error;
-    }
-  else
-    {
-    
-
-    if (file_exists("upload/" . $_FILES["file"]["name"]))
-      {
-       echo $duplicatecontent;
-      }
-    else
-      {
-      move_uploaded_file($_FILES["file"]["tmp_name"],
-      "upload/" . $_FILES["file"]["name"]);
-      /*echo $content;*/
-      mail($to, $subject, $message, $headers);
       
-      }
-    }
-  }
-else
-  {
-  echo $errorcontent;
-  }
+      && in_array($extension, $allowedExts))
+
+        {
+        if ($_FILES["file"]["error"] > 0)
+          {
+          echo $errorcontent; // Invalid File
+          }
+        else {
+
+          if ($_FILES["file"]["size"] < 13107200)
+            {
+             echo $duplicatecontent; // File Too Big
+            }
+          else
+            {
+
+          if (file_exists("upload/" . $_FILES["file"]["name"]))
+            {
+             echo $duplicatecontent; // Duplicate Content
+            }
+          else
+            {
+
+              i
+            move_uploaded_file($_FILES["file"]["tmp_name"],
+            "upload/" . $_FILES["file"]["name"]);
+            mail($to, $subject, $message, $headers);
+            echo $content; // Success
+            
+            }
+          }
+        }
+      else
+        {
+        echo $error;
+        }
 ?>

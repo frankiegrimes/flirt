@@ -126,14 +126,17 @@
       </div>
 
      
-      <div class="grix-x grid-padding-x">
-        <div class="small-12 cell">
-           <p class="text-center">Koproduktion & Kooperation mit:</p>
+    <div class="grid-x grid-padding-x hide-for-small-only">
+        <div class="small-2 small-offset-4 cell">
+           <p class="text-center">Koproduktion mit:</p>
+       </div>
+       <div class="small-6 cell">
+        <p>Kooperation mit:<p>
        </div>
        
-     </div>
-     <div class="grix-x grid-padding-x align-center fft">
-     <div class="small-2 small-offset-1 cell">
+    
+     
+     <div class="small-2 small-offset-4 cell">
           
             <img src="assets/img/fft.png">
         
@@ -141,9 +144,33 @@
         <div class="small-2 cell">
               
                 <img src="assets/img/TStrahl.png">
-            
-            </div>
+      
+         </div>
     </div>
+
+     <div class="grid-x grid-padding-x show-for-small-only" >
+        <div class="small-12 medium-2 small-offset-0 medium-offset-4 cell">
+           <p class="text-center">Koproduktion mit:</p>
+         </div>
+
+          <div class="small-12 medium-4 large-2 cell">
+          
+            <img src="assets/img/fft.png">
+        
+          </div>
+
+       <div class="small-12 medium-2 cell">
+        <p class="text-center">Kooperation mit:<p>
+       </div>
+
+        <div class="small-12 medium-4 large-2 cell">
+              
+                <img src="assets/img/TStrahl.png">
+            
+        </div>
+       
+     </div>
+
     </div>
     <div class="footer-menu">
       <div class="grid-x">

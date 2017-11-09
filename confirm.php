@@ -83,10 +83,10 @@
                    <br>
                    <div class="grid-x grid-padding-x align-center">
                       <div class="small-12 medium-2 cell fft">
-                        <a href="stueck.html" class="text-center button large custom">Das Stück</a>
+                        <a href="stueck.html" class="text-center button large custom">DAS STÜCK</a>
                       </div>
                        <div class="small-12 medium-2 cell fft">
-                        <a href="team.html" class="text-center button large custom">Das Team</a>
+                        <a href="team.html" class="text-center button large custom">DAS TEAM</a>
                       </div>
                        <div class="small-12 medium-2 cell fft">
                         <a href="wach.html" class="text-center button large custom">WACH?</a>
@@ -140,14 +140,17 @@
       </div>
 
      
-      <div class="grix-x grid-padding-x">
-        <div class="small-12 cell">
-           <p class="text-center">Koproduktion & Kooperation mit:</p>
+ <div class="grid-x grid-padding-x hide-for-small-only">
+        <div class="small-2 small-offset-4 cell">
+           <p class="text-center">Koproduktion mit:</p>
+       </div>
+       <div class="small-6 cell">
+        <p>Kooperation mit:<p>
        </div>
        
-     </div>
-     <div class="grix-x grid-padding-x align-center fft">
-     <div class="small-2 small-offset-1 cell">
+    
+     
+     <div class="small-2 small-offset-4 cell">
           
             <img src="assets/img/fft.png">
         
@@ -155,9 +158,33 @@
         <div class="small-2 cell">
               
                 <img src="assets/img/TStrahl.png">
-            
-            </div>
+      
+         </div>
     </div>
+
+     <div class="grid-x grid-padding-x show-for-small-only" >
+        <div class="small-12 medium-2 small-offset-0 medium-offset-4 cell">
+           <p class="text-center">Koproduktion mit:</p>
+         </div>
+
+          <div class="small-12 medium-4 large-2 cell">
+          
+            <img src="assets/img/fft.png">
+        
+          </div>
+
+       <div class="small-12 medium-2 cell">
+        <p class="text-center">Kooperation mit:<p>
+       </div>
+
+        <div class="small-12 medium-4 large-2 cell">
+              
+                <img src="assets/img/TStrahl.png">
+            
+        </div>
+       
+     </div>
+
     </div>
     <div class="footer-menu">
       <div class="grid-x">

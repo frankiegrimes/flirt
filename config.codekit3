@@ -7,9 +7,10 @@
 		"uuidString": "4F44EA12-1DB1-4608-87CF-099DCEF6A6D3"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26097",
 "files": {
 	"\/.bowerrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.bowerrc",
@@ -203,222 +204,259 @@
 		"q": 100
 		},
 	"\/assets\/fonts\/Metropolis-Bold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Metropolis-Bold.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-black.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-black.eot",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-black.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-black.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-black.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-black.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-black.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-black.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-bold.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-bold.eot",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Proxima-Nova-Bold.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Proxima-Nova-Bold.otf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-bold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-bold.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-bold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-bold.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-bold.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-bold.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-extra-bold.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-extra-bold.eot",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-extra-bold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-extra-bold.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-extra-bold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-extra-bold.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-extra-bold.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-extra-bold.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-light.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-light.eot",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Proxima-Nova-Light.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Proxima-Nova-Light.otf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-light.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-light.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-light.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-light.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-light.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-light.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-medium.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-medium.eot",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-medium.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-medium.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-medium.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-medium.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-medium.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-medium.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-regular.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-regular.eot",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-regular.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-regular.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-regular.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-regular.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-regular.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-regular.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-semibold.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-semibold.eot",
 		"oF": 0
 		},
 	"\/assets\/fonts\/Proxima-Nova-Semibold.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/Proxima-Nova-Semibold.otf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-semibold.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-semibold.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-semibold.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-semibold.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-semibold.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-semibold.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-thin.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-thin.eot",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-thin.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-thin.ttf",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-thin.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-thin.woff",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proxima-nova-thin.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proxima-nova-thin.woff2",
 		"oF": 0
 		},
 	"\/assets\/fonts\/proximanova-bold-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/fonts\/proximanova-bold-webfont.ttf",
@@ -434,7 +472,7 @@
 		},
 	"\/assets\/gif\/esther.gif": {
 		"ft": 4194304,
-		"iS": 758822,
+		"iS": 123536,
 		"oA": 0,
 		"oAP": "\/assets\/gif\/esther.gif",
 		"oF": 0,
@@ -466,7 +504,7 @@
 		},
 	"\/assets\/gif\/rafael.gif": {
 		"ft": 4194304,
-		"iS": 755056,
+		"iS": 172445,
 		"oA": 0,
 		"oAP": "\/assets\/gif\/rafael.gif",
 		"oF": 0,
@@ -578,7 +616,7 @@
 		},
 	"\/assets\/img\/fft.png": {
 		"ft": 32768,
-		"iS": 400,
+		"iS": 10252,
 		"oA": 0,
 		"oAP": "\/assets\/img\/fft.png",
 		"oF": 0,
@@ -717,12 +755,14 @@
 		"q": 100
 		},
 	"\/assets\/img\/Press.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/img\/Press.pdf",
 		"oF": 0
 		},
 	"\/assets\/img\/Program.pdf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/img\/Program.pdf",
@@ -730,7 +770,7 @@
 		},
 	"\/assets\/img\/rafael.jpg": {
 		"ft": 16384,
-		"iS": 172445,
+		"iS": 124063,
 		"oA": 0,
 		"oAP": "\/assets\/img\/rafael.jpg",
 		"oF": 0,
@@ -910,85 +950,99 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/video\/Declan.mp4": {
+	"\/assets\/video\/declan.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/video\/Declan.mp4",
+		"oAP": "\/assets\/video\/declan.mp4",
 		"oF": 0
 		},
 	"\/assets\/video\/eyes.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/eyes.mp4",
 		"oF": 0
 		},
 	"\/assets\/video\/info-video.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/info-video.mp4",
 		"oF": 0
 		},
 	"\/assets\/video\/kathrin.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/kathrin.mp4",
 		"oF": 0
 		},
-	"\/assets\/video\/Pavel.mp4": {
+	"\/assets\/video\/pavel.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/video\/Pavel.mp4",
+		"oAP": "\/assets\/video\/pavel.mp4",
 		"oF": 0
 		},
-	"\/assets\/video\/Pia.mp4": {
+	"\/assets\/video\/pia.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/video\/Pia.mp4",
+		"oAP": "\/assets\/video\/pia.mp4",
 		"oF": 0
 		},
-	"\/assets\/video\/Rafael.mp4": {
+	"\/assets\/video\/rafael.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/video\/Rafael.mp4",
+		"oAP": "\/assets\/video\/rafael.mp4",
 		"oF": 0
 		},
-	"\/assets\/video\/Regina.mp4": {
+	"\/assets\/video\/regina.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/video\/Regina.mp4",
+		"oAP": "\/assets\/video\/regina.mp4",
 		"oF": 0
 		},
-	"\/assets\/video\/Sophia.mp4": {
+	"\/assets\/video\/sophia.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/video\/Sophia.mp4",
+		"oAP": "\/assets\/video\/sophia.mp4",
 		"oF": 0
 		},
 	"\/assets\/video\/stuck.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/stuck.mp4",
 		"oF": 0
 		},
-	"\/assets\/video\/Tumay.mp4": {
+	"\/assets\/video\/tumay.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/video\/Tumay.mp4",
+		"oAP": "\/assets\/video\/tumay.mp4",
 		"oF": 0
 		},
-	"\/assets\/video\/Wera.mp4": {
+	"\/assets\/video\/wera.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/video\/Wera.mp4",
+		"oAP": "\/assets\/video\/wera.mp4",
 		"oF": 0
 		},
-	"\/assets\/video\/Xenia.mp4": {
+	"\/assets\/video\/xenia.mp4": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
-		"oAP": "\/assets\/video\/Xenia.mp4",
+		"oAP": "\/assets\/video\/xenia.mp4",
 		"oF": 0
 		},
 	"\/beispiele.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/beispiele.html",
@@ -1011,22 +1065,24 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/.bowerrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.bowerrc",
 		"oF": 0
 		},
 	"\/bower_components\/foundation-sites\/.eslintrc": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.eslintrc",
 		"oF": 0
 		},
 	"\/bower_components\/foundation-sites\/.github\/ISSUE_TEMPLATE.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1041,10 +1097,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/foundation-sites\/.github\/PULL_REQUEST_TEMPLATE.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1059,12 +1115,14 @@
 		"uCM": 0
 		},
 	"\/bower_components\/foundation-sites\/.sass-lint.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.sass-lint.yml",
 		"oF": 0
 		},
 	"\/bower_components\/foundation-sites\/.travis.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/.travis.yml",
@@ -1295,10 +1353,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/code-of-conduct.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -1321,6 +1379,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/customizer\/config.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/customizer\/config.yml",
@@ -1335,6 +1394,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/customizer\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/customizer\/index.html",
@@ -2128,6 +2188,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/foundation-sites\/docslink.sh": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/docslink.sh",
@@ -2804,6 +2865,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/foundation-sites\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/foundation-sites\/LICENSE",
@@ -2818,10 +2880,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/foundation-sites\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -4219,6 +4281,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/jquery\/AUTHORS.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/AUTHORS.txt",
@@ -4263,6 +4326,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.min.map",
@@ -4289,6 +4353,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/dist\/jquery.slim.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/dist\/jquery.slim.min.map",
@@ -4315,28 +4380,31 @@
 		"tS": 0
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/external\/sizzle\/dist\/sizzle.min.map",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/external\/sizzle\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/LICENSE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/jquery\/LICENSE.txt",
 		"oF": 0
 		},
 	"\/bower_components\/jquery\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5387,6 +5455,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/modernizr\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/.gitignore",
@@ -5417,6 +5486,7 @@
 		"oS": 1
 		},
 	"\/bower_components\/modernizr\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/modernizr\/LICENSE",
@@ -5441,10 +5511,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/modernizr\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5523,10 +5593,10 @@
 		"tS": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/animations.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5541,10 +5611,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/classes.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5559,10 +5629,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/configuration.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5577,10 +5647,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/installation.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5595,10 +5665,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/javascript.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5613,10 +5683,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/readme.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5631,10 +5701,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/transitions.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5649,10 +5719,10 @@
 		"uCM": 0
 		},
 	"\/bower_components\/motion-ui\/docs\/wow.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5687,16 +5757,17 @@
 		"tS": 0
 		},
 	"\/bower_components\/motion-ui\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/motion-ui\/LICENSE",
 		"oF": 0
 		},
 	"\/bower_components\/motion-ui\/meteor-README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -5752,10 +5823,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/motion-ui\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -6102,6 +6173,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/what-input\/docs\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/docs\/index.html",
@@ -6138,6 +6210,7 @@
 		"tS": 0
 		},
 	"\/bower_components\/what-input\/LICENSE": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/LICENSE",
@@ -6152,10 +6225,10 @@
 		"oS": 1
 		},
 	"\/bower_components\/what-input\/README.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -6200,18 +6273,21 @@
 		"tS": 0
 		},
 	"\/bower_components\/what-input\/yarn.lock": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/bower_components\/what-input\/yarn.lock",
 		"oF": 0
 		},
 	"\/browserconfig.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/browserconfig.xml",
 		"oF": 0
 		},
 	"\/confirm.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/confirm.php",
@@ -6238,12 +6314,14 @@
 		"oS": 3
 		},
 	"\/duplicate.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/duplicate.php",
 		"oF": 0
 		},
 	"\/error.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/error.php",
@@ -6283,6 +6361,7 @@
 		"q": 100
 		},
 	"\/favicon.ico": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/favicon.ico",
@@ -6309,6 +6388,7 @@
 		"oS": 3
 		},
 	"\/font-awesome\/fonts\/fontawesome-webfont.eot": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/font-awesome\/fonts\/fontawesome-webfont.eot",
@@ -6325,30 +6405,35 @@
 		"prP": 0
 		},
 	"\/font-awesome\/fonts\/fontawesome-webfont.ttf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/font-awesome\/fonts\/fontawesome-webfont.ttf",
 		"oF": 0
 		},
 	"\/font-awesome\/fonts\/fontawesome-webfont.woff": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/font-awesome\/fonts\/fontawesome-webfont.woff",
 		"oF": 0
 		},
 	"\/font-awesome\/fonts\/fontawesome-webfont.woff2": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/font-awesome\/fonts\/fontawesome-webfont.woff2",
 		"oF": 0
 		},
 	"\/font-awesome\/fonts\/FontAwesome.otf": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/font-awesome\/fonts\/FontAwesome.otf",
 		"oF": 0
 		},
 	"\/font-awesome\/HELP-US-OUT.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/font-awesome\/HELP-US-OUT.txt",
@@ -6775,12 +6860,14 @@
 		"uL": 1
 		},
 	"\/index.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		},
 	"\/invalid.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/invalid.php",
@@ -6807,6 +6894,7 @@
 		"tS": 0
 		},
 	"\/js\/min\/app-min.js.map": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/js\/min\/app-min.js.map",
@@ -6833,6 +6921,7 @@
 		"tS": 0
 		},
 	"\/kontakt.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/kontakt.html",
@@ -6898,10 +6987,25 @@
 		"oO": 0,
 		"oS": 1
 		},
+	"\/php.ini": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/php.ini",
+		"oF": 0
+		},
 	"\/placeholder.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/placeholder.html",
+		"oF": 0
+		},
+	"\/Rafael.mp4": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/Rafael.mp4",
 		"oF": 0
 		},
 	"\/scss\/_settings.scss": {
@@ -6944,24 +7048,35 @@
 		"uL": 1
 		},
 	"\/stueck.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/stueck.html",
 		"oF": 0
 		},
 	"\/team.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/team.html",
 		"oF": 0
 		},
+	"\/test.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/test.php",
+		"oF": 0
+		},
 	"\/upload_file.php": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/upload_file.php",
 		"oF": 0
 		},
 	"\/wach.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/wach.html",
@@ -7512,6 +7627,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -7576,9 +7695,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -7608,6 +7727,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -7617,14 +7740,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -8728,7 +8843,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -8761,6 +8877,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -8802,7 +8919,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -8834,13 +8952,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -8849,7 +8967,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -8869,7 +8988,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -8897,7 +9017,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,

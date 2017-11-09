@@ -100,6 +100,22 @@ p {
   h2 {
     font-size: 2rem; } }
 
+@media only screen and (max-width: 1500px) {
+  .team h4 {
+    font-size: 1rem; } }
+
+@media only screen and (max-width: 1300px) {
+  .team h4 {
+    font-size: 0.8rem; } }
+
+@media only screen and (max-width: 1100px) {
+  .team h4 {
+    font-size: 0.7rem; } }
+
+@media only screen and (max-width: 1050px) {
+  .team h4 {
+    font-size: 1rem; } }
+
 .underline {
   border-bottom: 2px solid #F57F1F; }
 
@@ -325,6 +341,22 @@ p {
   .read-more.expanded .read-more {
     display: block; }
 
+.ticket-info {
+  border: solid 2px white;
+  padding: 1rem;
+  margin-top: 2rem; }
+
+.ticket-info p, h3 {
+  padding: 0;
+  margin: 0; }
+
+.orange-border {
+  border: solid 2px #F57F1F;
+  margin-bottom: 4rem; }
+
+.upload-section .ticket-info {
+  margin-bottom: 4rem; }
+
 /* -----------------------------------------------------------------------*	FORM
 \* -----------------------------------------------------------------------*/
 .camera-hover {
@@ -497,8 +529,14 @@ textarea {
 
 /* -----------------------------------------------------------------------*  TEAM PAGE
 \* -----------------------------------------------------------------------*/
+.white {
+  color: white; }
+
 .wach h3 {
   padding: 1rem 0rem; }
+
+.team h3 {
+  font-family: 'Metropolis-Bold'; }
 
 .team .card {
   text-align: center;
@@ -530,8 +568,10 @@ textarea {
 /* -----------------------------------------------------------------------*  WACH PAGE
 \* -----------------------------------------------------------------------*/
 .wach .youtube-embed {
-  padding-bottom: 5rem;
-  padding-top: 4rem; }
+  padding-top: 3rem; }
+
+.wach p {
+  font-size: 110%; }
 
 .piece .youtube-embed {
   padding-top: 4rem; }
@@ -557,12 +597,6 @@ textarea {
 
 /* -----------------------------------------------------------------------*  kontakt
 \* -----------------------------------------------------------------------*/
-.kontakt {
-  padding-bottom: 20rem; }
-
-.kontakt h3 {
-  padding-top: 5rem; }
-
 .contact-copy {
   padding-top: 5rem; }
 
