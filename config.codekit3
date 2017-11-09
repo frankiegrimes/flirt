@@ -6927,6 +6927,13 @@
 		"oAP": "\/kontakt.html",
 		"oF": 0
 		},
+	"\/limit.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/limit.php",
+		"oF": 0
+		},
 	"\/manifest.json": {
 		"ft": 524288,
 		"oA": 1,

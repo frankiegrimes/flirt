@@ -31,6 +31,9 @@ $error = file_get_contents($error2filepath); // General Error
 $duplicatefilepath = "duplicate.php";
 $duplicatecontent = file_get_contents($duplicatefilepath); // Duplicate File
 
+$limitpath = "limit.php";
+$limiterror = file_get_contents($limitpath); // File Too Big
+
 /*
 
   - Database
@@ -144,9 +147,9 @@ if ((($_FILES["file"]["type"] == "video/mp4")
           }
         else {
 
-          if ($_FILES["file"]["size"] < 13107200)
+          if ($_FILES["file"]["size"] > 100000000) // 100Mb
             {
-             echo $duplicatecontent; // File Too Big
+             echo $limiterror; // File Too Big
             }
           else
             {
@@ -157,8 +160,6 @@ if ((($_FILES["file"]["type"] == "video/mp4")
             }
           else
             {
-
-              i
             move_uploaded_file($_FILES["file"]["tmp_name"],
             "upload/" . $_FILES["file"]["name"]);
             mail($to, $subject, $message, $headers);
@@ -167,6 +168,7 @@ if ((($_FILES["file"]["type"] == "video/mp4")
             }
           }
         }
+      }
       else
         {
         echo $error;
