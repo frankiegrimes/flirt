@@ -7,7 +7,7 @@
 		"uuidString": "4F44EA12-1DB1-4608-87CF-099DCEF6A6D3"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26680",
 "files": {
 	"\/.bowerrc": {
 		"cB": 0,
@@ -575,6 +575,7 @@
 	"\/assets\/img\/declan.jpg": {
 		"ft": 16384,
 		"iS": 292435,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/declan.jpg",
 		"oF": 0,
@@ -596,6 +597,7 @@
 	"\/assets\/img\/esther.jpg": {
 		"ft": 16384,
 		"iS": 234482,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/esther.jpg",
 		"oF": 0,
@@ -636,9 +638,120 @@
 		"oT": 1,
 		"q": 100
 		},
+	"\/assets\/img\/gallery1.jpg": {
+		"ft": 16384,
+		"iS": 486514,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gallery1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/gallery10.jpg": {
+		"ft": 16384,
+		"iS": 513672,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gallery10.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/gallery2.jpg": {
+		"ft": 16384,
+		"iS": 556722,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gallery2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"\/assets\/img\/gallery3.jpg": {
+		"ft": 16384,
+		"iS": 392049,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gallery3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/gallery4.jpg": {
+		"ft": 16384,
+		"iS": 440773,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gallery4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/gallery5.jpg": {
+		"ft": 16384,
+		"iS": 433837,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gallery5.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/gallery6.jpg": {
+		"ft": 16384,
+		"iS": 474079,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gallery6.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/gallery7.jpg": {
+		"ft": 16384,
+		"iS": 534974,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gallery7.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/gallery8.jpg": {
+		"ft": 16384,
+		"iS": 518517,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gallery8.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"\/assets\/img\/gallery9.jpg": {
+		"ft": 16384,
+		"iS": 559608,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/assets\/img\/gallery9.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/kathrin.jpg": {
 		"ft": 16384,
 		"iS": 182982,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/kathrin.jpg",
 		"oF": 0,
@@ -704,6 +817,7 @@
 	"\/assets\/img\/pavel.jpg": {
 		"ft": 16384,
 		"iS": 207955,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/pavel.jpg",
 		"oF": 0,
@@ -714,6 +828,7 @@
 	"\/assets\/img\/pia.jpg": {
 		"ft": 16384,
 		"iS": 205350,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/pia.jpg",
 		"oF": 0,
@@ -771,6 +886,7 @@
 	"\/assets\/img\/rafael.jpg": {
 		"ft": 16384,
 		"iS": 124063,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/rafael.jpg",
 		"oF": 0,
@@ -781,6 +897,7 @@
 	"\/assets\/img\/regina.jpg": {
 		"ft": 16384,
 		"iS": 250015,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/regina.jpg",
 		"oF": 0,
@@ -802,6 +919,7 @@
 	"\/assets\/img\/sophia.jpg": {
 		"ft": 16384,
 		"iS": 177671,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/sophia.jpg",
 		"oF": 0,
@@ -823,6 +941,7 @@
 	"\/assets\/img\/tumay.jpg": {
 		"ft": 16384,
 		"iS": 237157,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/tumay.jpg",
 		"oF": 0,
@@ -833,6 +952,7 @@
 	"\/assets\/img\/vid-declan.jpg": {
 		"ft": 16384,
 		"iS": 38650,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/vid-declan.jpg",
 		"oF": 0,
@@ -843,6 +963,7 @@
 	"\/assets\/img\/vid-kathrin.jpg": {
 		"ft": 16384,
 		"iS": 38903,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/vid-kathrin.jpg",
 		"oF": 0,
@@ -853,6 +974,7 @@
 	"\/assets\/img\/vid-pavel.jpg": {
 		"ft": 16384,
 		"iS": 40011,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/vid-pavel.jpg",
 		"oF": 0,
@@ -863,6 +985,7 @@
 	"\/assets\/img\/vid-pia.jpg": {
 		"ft": 16384,
 		"iS": 33689,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/vid-pia.jpg",
 		"oF": 0,
@@ -873,6 +996,7 @@
 	"\/assets\/img\/vid-rafael.jpg": {
 		"ft": 16384,
 		"iS": 29145,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/vid-rafael.jpg",
 		"oF": 0,
@@ -883,6 +1007,7 @@
 	"\/assets\/img\/vid-regina.jpg": {
 		"ft": 16384,
 		"iS": 40467,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/vid-regina.jpg",
 		"oF": 0,
@@ -893,6 +1018,7 @@
 	"\/assets\/img\/vid-sophia.jpg": {
 		"ft": 16384,
 		"iS": 37641,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/vid-sophia.jpg",
 		"oF": 0,
@@ -903,6 +1029,7 @@
 	"\/assets\/img\/vid-tumay.jpg": {
 		"ft": 16384,
 		"iS": 34452,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/vid-tumay.jpg",
 		"oF": 0,
@@ -913,6 +1040,7 @@
 	"\/assets\/img\/vid-wera.jpg": {
 		"ft": 16384,
 		"iS": 32096,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/vid-wera.jpg",
 		"oF": 0,
@@ -923,6 +1051,7 @@
 	"\/assets\/img\/vid-xenia.jpg": {
 		"ft": 16384,
 		"iS": 38108,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/vid-xenia.jpg",
 		"oF": 0,
@@ -933,6 +1062,7 @@
 	"\/assets\/img\/wera.jpg": {
 		"ft": 16384,
 		"iS": 201981,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/wera.jpg",
 		"oF": 0,
@@ -943,6 +1073,7 @@
 	"\/assets\/img\/xenia.jpg": {
 		"ft": 16384,
 		"iS": 223444,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/assets\/img\/xenia.jpg",
 		"oF": 0,
@@ -1039,6 +1170,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/video\/xenia.mp4",
+		"oF": 0
+		},
+	"\/basic-plus.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/basic-plus.html",
 		"oF": 0
 		},
 	"\/beispiele.html": {
@@ -4272,6 +4410,496 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/bower_components\/jQuery-File-Upload\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/.gitignore",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/.jshintrc": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/.jshintrc",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/.npmignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/.npmignore",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/angularjs.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/angularjs.html",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/basic-plus.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/basic-plus.html",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/basic.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/basic.html",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/bower-version-update.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/bower-version-update.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/bower.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/bower.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/jQuery-File-Upload\/CONTRIBUTING.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/CONTRIBUTING.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/cors\/postmessage.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/cors\/postmessage.html",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/cors\/result.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/cors\/result.html",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/css\/demo-ie8.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/css\/demo-ie8.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/jQuery-File-Upload\/css\/demo.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/css\/demo.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/jQuery-File-Upload\/css\/jquery.fileupload-noscript.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/css\/jquery.fileupload-noscript.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/jQuery-File-Upload\/css\/jquery.fileupload-ui-noscript.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/css\/jquery.fileupload-ui-noscript.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/jQuery-File-Upload\/css\/jquery.fileupload-ui.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/css\/jquery.fileupload-ui.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/jQuery-File-Upload\/css\/jquery.fileupload.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/css\/jquery.fileupload.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/jQuery-File-Upload\/css\/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/css\/style.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/bower_components\/jQuery-File-Upload\/img\/loading.gif": {
+		"ft": 4194304,
+		"iS": 3897,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/img\/loading.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/img\/progressbar.gif": {
+		"ft": 4194304,
+		"iS": 3323,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/img\/progressbar.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/jquery-ui.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/jquery-ui.html",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/app.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/app.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/cors\/jquery.postmessage-transport.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/cors\/jquery.postmessage-transport.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/cors\/jquery.xdr-transport.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/cors\/jquery.xdr-transport.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-angular.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-angular.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-audio.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-audio.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-image.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-image.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-jquery-ui.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-jquery-ui.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-process.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-process.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-ui.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-ui.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-validate.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-validate.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-video.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload-video.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/jquery.fileupload.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/jquery.iframe-transport.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/jquery.iframe-transport.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/main.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/js\/vendor\/jquery.ui.widget.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/js\/vendor\/jquery.ui.widget.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/LICENSE.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/LICENSE.txt",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"\/bower_components\/jQuery-File-Upload\/README.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/README.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/gae-go\/app.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/gae-go\/app.yaml",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/gae-go\/app\/main.go": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/gae-go\/app\/main.go",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/gae-go\/static\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/gae-go\/static\/favicon.ico",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/gae-go\/static\/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/gae-go\/static\/robots.txt",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/gae-python\/app.yaml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/gae-python\/app.yaml",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/gae-python\/main.py": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/gae-python\/main.py",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/gae-python\/static\/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/gae-python\/static\/favicon.ico",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/gae-python\/static\/robots.txt": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/gae-python\/static\/robots.txt",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/php\/docker-compose.yml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/php\/docker-compose.yml",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/php\/Dockerfile": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/php\/Dockerfile",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/php\/files\/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/php\/files\/.gitignore",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/php\/files\/.htaccess": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/php\/files\/.htaccess",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/php\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/php\/index.php",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/server\/php\/UploadHandler.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/server\/php\/UploadHandler.php",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/test\/index.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/test\/index.html",
+		"oF": 0
+		},
+	"\/bower_components\/jQuery-File-Upload\/test\/test.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "\/bower_components\/jQuery-File-Upload\/test\/test.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/bower_components\/jquery\/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -6900,26 +7528,6 @@
 		"oAP": "\/js\/min\/app-min.js.map",
 		"oF": 0
 		},
-	"\/js\/video-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/video-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/js\/video.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/js\/video-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/kontakt.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -7015,6 +7623,13 @@
 		"oAP": "\/Rafael.mp4",
 		"oF": 0
 		},
+	"\/recherche.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/recherche.html",
+		"oF": 0
+		},
 	"\/scss\/_settings.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -7075,6 +7690,13 @@
 		"oAP": "\/test.php",
 		"oF": 0
 		},
+	"\/upload-test.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/upload-test.html",
+		"oF": 0
+		},
 	"\/upload_file.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -7098,7 +7720,8 @@
 	"creationDate": 520879934,
 	"displayValue": "flirt",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-soon"
+	"iconImageName": "meme-soon",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -7106,6 +7729,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -7669,6 +8293,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
@@ -8488,7 +9116,7 @@
 			}
 		},
 	"esLintSourceType": 0,
-	"externalServerAddress": "localhost",
+	"externalServerAddress": "http:\/\/localhost:8888",
 	"gitIgnoreBuildFolder": 1,
 	"hideConfigFile": 0,
 	"jsCheckerReservedNamesString": "",
@@ -8896,6 +9524,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

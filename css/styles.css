@@ -1,6 +1,8 @@
-/* -----------------------------------------------------------------------* COLOUR DECLARATIONS
+/* -----------------------------------------------------------------------*\
+ COLOUR DECLARATIONS
 \* -----------------------------------------------------------------------*/
-/* -----------------------------------------------------------------------* FONT DECLARATIONS
+/* -----------------------------------------------------------------------*\
+ FONT DECLARATIONS
 \* -----------------------------------------------------------------------*/
 @font-face {
   font-family: 'ProximaNova-Bold';
@@ -33,7 +35,8 @@
   font-weight: normal;
   font-style: normal; }
 
-/* -----------------------------------------------------------------------* BODY FONT STYLES
+/* -----------------------------------------------------------------------*\
+ BODY FONT STYLES
 \* -----------------------------------------------------------------------*/
 body {
   font-family: "ProximaNova-Semibold"; }
@@ -70,7 +73,8 @@ h4 {
 
 p {
   font-family: "ProximaNova-Light";
-  color: #F57F1F; }
+  color: #F57F1F;
+  font-size: 1.3rem; }
 
 @media only screen and (max-width: 1600px) {
   h1 {
@@ -120,9 +124,10 @@ p {
   border-bottom: 2px solid #F57F1F; }
 
 .line-spacing {
-  line-height: 2.5 !important; }
+  line-height: 3 !important; }
 
-/* -----------------------------------------------------------------------* NAVIGATION
+/* -----------------------------------------------------------------------*\
+ NAVIGATION
 \* -----------------------------------------------------------------------*/
 .aufnehmen {
   margin: 2rem; }
@@ -242,8 +247,20 @@ p {
 .orange-under a:before {
   background-color: #F57F1F; }
 
-/* -----------------------------------------------------------------------*	LANDING PAGE
+/* -----------------------------------------------------------------------*\
+	LANDING PAGE
 \* -----------------------------------------------------------------------*/
+.ghost {
+  background-color: transparent;
+  border: solid 1px white;
+  padding: 1rem 2.5rem; }
+
+.ghost:hover {
+  background-color: #474747; }
+
+.ghost-buttons a {
+  margin: 1rem; }
+
 .eyes-video {
   position: relative;
   overflow: hidden;
@@ -324,7 +341,8 @@ p {
     height: 60px;
     margin-right: 1rem; } }
 
-/* -----------------------------------------------------------------------*	INFO VIDEO
+/* -----------------------------------------------------------------------*\
+	INFO VIDEO
 \* -----------------------------------------------------------------------*/
 .responsive-embed, .flex-video {
   margin-bottom: 0rem; }
@@ -342,13 +360,8 @@ p {
     display: block; }
 
 .ticket-info {
-  border: solid 2px white;
   padding: 1rem;
   margin-top: 2rem; }
-
-.ticket-info p, h3 {
-  padding: 0;
-  margin: 0; }
 
 .orange-border {
   border: solid 2px #F57F1F;
@@ -357,8 +370,55 @@ p {
 .upload-section .ticket-info {
   margin-bottom: 4rem; }
 
-/* -----------------------------------------------------------------------*	FORM
+.quotes {
+  min-height: 60vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 5rem; }
+
+.quotes blockquote {
+  margin: 4rem 0rem; }
+
+.upload-section button {
+  margin: 2rem;
+  background-color: white;
+  color: #F57F1F;
+  padding: 1rem;
+  font-family: ProximaNova-Bold;
+  font-size: 1.5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.upload-section button:hover {
+  background-color: white; }
+
+.upload-section span {
+  font-size: 5rem; }
+
+.box {
+  padding: 1rem; }
+
+/* -----------------------------------------------------------------------*\
+	FORM
 \* -----------------------------------------------------------------------*/
+.dropbox {
+  padding: 1rem 0rem;
+  display: block; }
+
 .camera-hover {
   border: solid 5px red; }
 
@@ -367,6 +427,18 @@ p {
   margin: 2rem; }
 
 .desktop-video {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+
+.flex-text {
+  padding: 2rem 0rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -527,10 +599,14 @@ textarea {
   #choosefile-label {
     visibility: visible; } }
 
-/* -----------------------------------------------------------------------*  TEAM PAGE
+/* -----------------------------------------------------------------------*\
+  TEAM PAGE
 \* -----------------------------------------------------------------------*/
 .white {
   color: white; }
+
+.team {
+  min-height: 100vh; }
 
 .wach h3 {
   padding: 1rem 0rem; }
@@ -565,7 +641,8 @@ textarea {
   padding-bottom: 2rem;
   padding-top: 4rem; }
 
-/* -----------------------------------------------------------------------*  WACH PAGE
+/* -----------------------------------------------------------------------*\
+  WACH PAGE
 \* -----------------------------------------------------------------------*/
 .wach .youtube-embed {
   padding-top: 3rem; }
@@ -595,15 +672,22 @@ textarea {
 .custom2:hover {
   background-color: #bf5a09; }
 
-/* -----------------------------------------------------------------------*  kontakt
+/* -----------------------------------------------------------------------*\
+  kontakt
 \* -----------------------------------------------------------------------*/
+.kontakt {
+  min-height: 80vh; }
+
 .contact-copy {
   padding-top: 5rem; }
 
-/* -----------------------------------------------------------------------*  Beispele
+/* -----------------------------------------------------------------------*\
+  Beispele
 \* -----------------------------------------------------------------------*/
 .video-gallery {
-  padding: 2rem; }
+  padding: 2rem;
+  padding-top: 5rem;
+  min-height: 50vh; }
 
 .beispiele .card {
   border: none;
@@ -641,7 +725,8 @@ textarea {
   .video-slider {
     padding: 0; } }
 
-/* -----------------------------------------------------------------------*  Placeholder
+/* -----------------------------------------------------------------------*\
+  Placeholder
 \* -----------------------------------------------------------------------*/
 .placeholder {
   min-height: 120vh; }
@@ -650,7 +735,8 @@ textarea {
   padding-top: 10rem;
   min-height: 100vh; }
 
-/* -----------------------------------------------------------------------*  FOOTER
+/* -----------------------------------------------------------------------*\
+  FOOTER
 \* -----------------------------------------------------------------------*/
 footer {
   background-color: #070707; }

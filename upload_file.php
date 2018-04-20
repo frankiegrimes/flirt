@@ -40,6 +40,8 @@ $limiterror = file_get_contents($limitpath); // File Too Big
 
 */
 
+  
+
 
 $db_server = "rdbms.strato.de";
 $db_user = "U3086321";
@@ -103,6 +105,13 @@ $message = '<p>Vielen Dank für dein Video bei www.flirt-performance.de
               <p>Dein FLIRT - Team</p>';
 
 
+
+ini_set('upload_max_filesize', '2G');
+ini_set('post_max_size', '2G');
+ini_set('max_input_time', 1200);
+ini_set('max_execution_time', 1200);
+
+
 /*
 
  Update Database
@@ -113,6 +122,9 @@ $sql =  "INSERT INTO $table_name (name, email, description, videotitle) VALUES (
 
 
 if(mysqli_query($link, $sql)){
+
+  mail($to, $subject, $message, $headers);
+  echo $content;
     
 } else{
      echo $error;
@@ -124,7 +136,7 @@ mysqli_close($link);
 
  FILE UPLOAD
 && ($_FILES["file"]["size"] < 13107200)
-*/
+
 
 if ((($_FILES["file"]["type"] == "video/mp4")
       || ($_FILES["file"]["type"] == "video/x-m4v")
@@ -173,4 +185,6 @@ if ((($_FILES["file"]["type"] == "video/mp4")
         {
         echo $error;
         }
+
+        */
 ?>

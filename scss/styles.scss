@@ -7,7 +7,7 @@ $orange: #F57F1F;
 $light-orange: #EE964B;
 $orange3: #DF8431;
 $orange3: #EB722E;
-
+$dark-grey: #474747;
 
 
 /* -----------------------------------------------------------------------*\
@@ -119,6 +119,7 @@ h4 {
 p {
   font-family: "ProximaNova-Light";
   color: $orange;
+  font-size: 1.3rem;
 }
 
 @media only screen and (max-width: 1600px) {
@@ -215,7 +216,7 @@ p {
 }
 
 .line-spacing {
-  line-height: 2.5!important;
+  line-height: 3!important;
 }
 
 /* -----------------------------------------------------------------------*\
@@ -383,6 +384,25 @@ p {
 	LANDING PAGE
 \* -----------------------------------------------------------------------*/
 
+.ghost {
+  background-color: transparent;
+  border: solid 1px white;
+  padding: 1rem 2.5rem;
+}
+
+.ghost:hover {
+  background-color: $dark-grey;
+}
+
+.ghost-buttons{
+
+
+}
+
+.ghost-buttons a {
+  margin: 1rem;
+}
+
 .eyes-video {
   position: relative;
   overflow: hidden;
@@ -536,15 +556,11 @@ p {
 }
 
 .ticket-info {
-  border: solid 2px white;
   padding: 1rem;
   margin-top: 2rem;
 }
 
-.ticket-info p, h3 {
-  padding: 0;
-  margin: 0;
-}
+
 
 .orange-border {
   border: solid 2px $orange;
@@ -555,11 +571,54 @@ p {
   margin-bottom: 4rem;
 }
 
+.quotes {
+  min-height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+}
+
+.quotes blockquote {
+  margin: 4rem 0rem;
+}
+
+
+.upload-section button {
+  margin: 2rem;
+  background-color: white;
+  color: $orange;
+  padding: 1rem;
+  font-family: ProximaNova-Bold;
+  font-size: 1.5rem;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.upload-section  button:hover {
+
+  background-color: white;
+
+}
+
+.upload-section span {
+  font-size: 5rem;
+}
+
+.box {
+padding: 1rem;
+}
 /* -----------------------------------------------------------------------*\
 	FORM
 \* -----------------------------------------------------------------------*/
 
 
+
+.dropbox {
+  padding: 1rem 0rem;
+  display: block; 
+}
 
 .camera-hover {
   border: solid 5px red;
@@ -572,6 +631,14 @@ p {
 
 
 .desktop-video {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.flex-text {
+  padding: 2rem 0rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -797,6 +864,10 @@ textarea {
   color: white;
 }
 
+.team {
+  min-height: 100vh;
+}
+
 .wach h3 {
   padding: 1rem 0rem;
 }
@@ -895,7 +966,9 @@ padding-top: 3rem;
 \* -----------------------------------------------------------------------*/
 
 
-
+.kontakt {
+  min-height: 80vh;
+}
 
 .contact-copy {
   padding-top: 5rem;
@@ -907,6 +980,8 @@ padding-top: 3rem;
 
 .video-gallery {
   padding: 2rem;
+  padding-top: 5rem;
+  min-height: 50vh;
 }
 
 .beispiele .card {
